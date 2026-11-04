@@ -4,7 +4,7 @@
   "default_volume_tasks_per_month": 2000,
   "default_caching": true,
   "why": {
-    "bar": "At 85%, best value is a cheaper model than the leader in 4 of 5 jobs, so the answer shows a real trade-off. At 90% it falls back to the leader or a near-tie in most jobs; at 80% it often picks models well below the leader.",
+    "bar": "At 85%, best value is a different model from the leader in all 5 jobs (using placeholder thinking costs until the usage run), so the answer shows a real trade-off. At 90% it falls back to the leader or a near-tie in most jobs; at 80% it often picks models well below the leader.",
     "volume": "2,000 a month is a typical team pilot, matches the spec's example and the prototype, and makes the bill big enough to compare without being alarming."
   }
 }
