@@ -1,0 +1,43 @@
+
+
+<div class="page">
+  <header class="top">
+    <span class="logo">Bench</span><span class="by">by Ben Shapiro</span>
+    <span class="sp"></span>
+    <a href="/method">How we get these numbers</a>
+    <button class="theme" id="theme" type="button" aria-label="Switch light or dark"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M8 2a6 6 0 0 1 0 12z" fill="currentColor"/></svg></button>
+  </header>
+
+  <section class="ask">
+    <p class="eyebrow">Pick a model for a job</p>
+    <p class="madlib">
+      I need AI for <span class="slot"><select id="f-job" aria-label="The job"></select><span class="car">▾</span></span>,
+      about <span class="slot"><input id="f-vol" type="number" min="1" step="100" inputmode="numeric" aria-label="How many a month"></span>
+      <span id="f-unit"></span> a month.
+      My vendor suggested <span class="slot"><select id="f-off" aria-label="Model you were offered"></select><span class="car">▾</span></span>.
+      Good enough is <span class="slot"><select id="f-bar" aria-label="Quality bar"></select><span class="car">▾</span></span> as good as the best.
+    </p>
+  </section>
+
+  <div class="stitch"></div>
+
+  <section class="verdict" id="verdict" aria-live="polite"></section>
+
+  <section class="details" id="how">
+    <details id="d-field">
+      <summary><span class="t">How every model compares</span><span class="h" id="h-field"></span><span class="pm"></span></summary>
+      <div class="body" id="b-field"></div>
+    </details>
+    <details id="d-bill">
+      <summary><span class="t">What the bill is made of</span><span class="h" id="h-bill"></span><span class="pm"></span></summary>
+      <div class="body" id="b-bill"></div>
+    </details>
+    <details id="d-src">
+      <summary><span class="t">Where these numbers come from</span><span class="h" id="h-src"></span><span class="pm"></span></summary>
+      <div class="body" id="b-src"></div>
+    </details>
+  </section>
+
+  <footer class="foot"><span>bench.shapyro.com</span><span>Scores last checked {{CHECKED}}</span><span>Thinking costs are estimates until Bench measures them</span></footer>
+</div>
+
