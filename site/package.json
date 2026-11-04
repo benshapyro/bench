@@ -1,0 +1,14 @@
+{
+  "name": "bench-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "check-data": "node scripts/check-data.mjs"
+  },
+  "dependencies": {
+    "astro": "7.4.5"
+  }
+}

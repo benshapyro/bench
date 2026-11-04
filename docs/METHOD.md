@@ -1,6 +1,6 @@
 # How we get these numbers
 
-*Draft for the site's method page (spec section 3.5). Last checked: [date of the last data check].*
+<!-- Draft for the site's method page (spec section 3.5). The site adds the last-checked date. -->
 
 Bench answers one question: which AI model should run this job, and what will it cost each month? Here is where every number comes from, and where our own judgment comes in.
 

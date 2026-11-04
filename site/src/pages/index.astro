@@ -1,0 +1,12 @@
+---
+import Base from '../layouts/Base.astro';
+import { DATA, JOBS, CHECKED, PRICES_CHECKED, DEFAULTS } from '../lib/data';
+import body from '../lib/home.body.html?raw';
+import client from '../lib/home.client.js?raw';
+const html = body.replace('{{CHECKED}}', CHECKED);
+const boot = `const DATA=${JSON.stringify(DATA)};const JOBS=${JSON.stringify(JOBS)};const DEFAULTS=${JSON.stringify(DEFAULTS)};const PRICES_CHECKED=${JSON.stringify(PRICES_CHECKED)};\n`;
+---
+<Base title="Bench: pick an AI model for a job">
+  <Fragment set:html={html} />
+  <script is:inline set:html={boot + client}></script>
+</Base>

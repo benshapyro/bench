@@ -1,0 +1,19 @@
+---
+import Base from '../layouts/Base.astro';
+import { Content } from '../../../docs/METHOD.md';
+import { CHECKED } from '../lib/data';
+---
+<Base title="How we get these numbers · Bench">
+  <div class="page">
+    <header class="top">
+      <a class="logo" href="/">Bench</a><span class="by">by Ben Shapiro</span>
+      <span class="sp"></span>
+      <a href="/">Pick a model</a>
+    </header>
+    <article class="prose">
+      <p class="eyebrow">Last checked {CHECKED}</p>
+      <Content />
+    </article>
+    <footer class="foot"><span>bench.shapyro.com</span><span>Scores last checked {CHECKED}</span></footer>
+  </div>
+</Base>
