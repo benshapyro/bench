@@ -1,0 +1,39 @@
+{
+  "_about": "The 15 v0 models and the three reasoning levels measured for each (lowest that thinks, the lab's default, highest). 'verify' marks an ID or level name taken from a secondary source or assumed from a sibling model; run `python run_usage.py probe` before the real run and fix anything it rejects. Prices are USD per million tokens from phase0 and are used only for the cost estimate in `plan`.",
+  "models": [
+    {"key": "opus-5.5", "name": "Claude Opus 5.5", "lab": "Anthropic", "provider": "anthropic", "api_model": "claude-opus-5-5", "price_in": 4.0, "price_out": 20.0,
+     "levels": [{"role": "lowest", "name": "low"}, {"role": "default", "name": "medium"}, {"role": "highest", "name": "max"}]},
+    {"key": "sonnet-5.5", "name": "Claude Sonnet 5.5", "lab": "Anthropic", "provider": "anthropic", "api_model": "claude-sonnet-5-5", "price_in": 2.0, "price_out": 10.0,
+     "levels": [{"role": "lowest", "name": "low"}, {"role": "default", "name": "high"}, {"role": "highest", "name": "max"}]},
+    {"key": "haiku-5.5", "name": "Claude Haiku 5.5", "lab": "Anthropic", "provider": "anthropic", "api_model": "claude-haiku-5-5", "price_in": 0.10, "price_out": 0.50,
+     "levels": [{"role": "lowest", "name": "low"}, {"role": "default", "name": "medium"}, {"role": "highest", "name": "max"}]},
+    {"key": "fable-5.1", "name": "Claude Fable 5.1", "lab": "Anthropic", "provider": "anthropic", "api_model": "claude-fable-5-1", "price_in": 10.0, "price_out": 50.0,
+     "levels": [{"role": "lowest", "name": "low"}, {"role": "default", "name": "high"}, {"role": "highest", "name": "max"}]},
+
+    {"key": "gpt-6-astra", "name": "GPT-6 Astra", "lab": "OpenAI", "provider": "openai", "api_model": "gpt-6-astra", "verify": "model ID and levels assumed from GPT-6 Luna", "price_in": 10.0, "price_out": 50.0,
+     "levels": [{"role": "lowest", "name": "low"}, {"role": "default", "name": "medium"}, {"role": "highest", "name": "max"}]},
+    {"key": "gpt-6.1-sol", "name": "GPT-6.1 Sol", "lab": "OpenAI", "provider": "openai", "api_model": "gpt-6.1-sol", "verify": "model ID and levels assumed from GPT-6 Luna", "price_in": 2.0, "price_out": 10.0,
+     "levels": [{"role": "lowest", "name": "low"}, {"role": "default", "name": "medium"}, {"role": "highest", "name": "max"}]},
+    {"key": "gpt-6-luna", "name": "GPT-6 Luna", "lab": "OpenAI", "provider": "openai", "api_model": "gpt-6-luna", "price_in": 0.10, "price_out": 0.50,
+     "levels": [{"role": "lowest", "name": "low"}, {"role": "default", "name": "medium"}, {"role": "highest", "name": "max"}]},
+
+    {"key": "gemini-4-argon", "name": "Gemini 4 Argon", "lab": "Google", "provider": "google", "api_model": "gemini-4-argon", "price_in": 2.0, "price_out": 10.0,
+     "levels": [{"role": "lowest", "name": "low"}, {"role": "default", "name": "medium"}, {"role": "highest", "name": "high"}]},
+    {"key": "gemini-3.8-flash", "name": "Gemini 3.8 Flash", "lab": "Google", "provider": "google", "api_model": "gemini-3.8-flash", "verify": "model ID and default assumed from Gemini 4 Argon; 'minimal' level assumed from earlier Flash models", "price_in": 0.75, "price_out": 3.75,
+     "levels": [{"role": "lowest", "name": "minimal"}, {"role": "default", "name": "medium"}, {"role": "highest", "name": "high"}]},
+    {"key": "gemini-3.5-flash-lite", "name": "Gemini 3.5 Flash-Lite", "lab": "Google", "provider": "google", "api_model": "gemini-3.5-flash-lite", "verify": "model ID and default assumed from Gemini 4 Argon; 'minimal' level assumed from earlier Flash models", "price_in": 0.30, "price_out": 2.50,
+     "levels": [{"role": "lowest", "name": "minimal"}, {"role": "default", "name": "medium"}, {"role": "highest", "name": "high"}]},
+
+    {"key": "grok-4.7", "name": "Grok 4.7", "lab": "xAI", "provider": "xai", "api_model": "grok-4.7", "verify": "levels from a secondary write-up (low, medium, high default, xhigh)", "price_in": 2.0, "price_out": 6.0,
+     "levels": [{"role": "lowest", "name": "low"}, {"role": "default", "name": "high"}, {"role": "highest", "name": "xhigh"}]},
+
+    {"key": "deepseek-v4.1-flash", "name": "DeepSeek V4.1 Flash", "lab": "DeepSeek", "provider": "openrouter", "api_model": "deepseek/deepseek-v4.1-flash", "verify": "OpenRouter's effort mapping for this model", "price_in": 0.30, "price_out": 1.20,
+     "levels": [{"role": "lowest", "name": "low"}, {"role": "default", "name": "default"}, {"role": "highest", "name": "high"}]},
+    {"key": "glm-5.3-flash", "name": "GLM-5.3-Flash", "lab": "Z.ai", "provider": "openrouter", "api_model": "z-ai/glm-5.3-flash", "verify": "OpenRouter's effort mapping for this model", "price_in": 0.15, "price_out": 0.50,
+     "levels": [{"role": "lowest", "name": "low"}, {"role": "default", "name": "default"}, {"role": "highest", "name": "high"}]},
+    {"key": "mimo-v2.6-flash", "name": "MiMo-V2.6-Flash", "lab": "Xiaomi", "provider": "openrouter", "api_model": "xiaomi/mimo-v2.6-flash", "verify": "OpenRouter's effort mapping for this model", "price_in": 0.14, "price_out": 0.28,
+     "levels": [{"role": "lowest", "name": "low"}, {"role": "default", "name": "default"}, {"role": "highest", "name": "high"}]},
+    {"key": "qwen3.8-27b", "name": "Qwen3.8-27B", "lab": "Alibaba", "provider": "openrouter", "api_model": "qwen/qwen3.8-27b", "verify": "OpenRouter slug not yet confirmed", "price_in": 0.42, "price_out": 2.60,
+     "levels": [{"role": "lowest", "name": "low"}, {"role": "default", "name": "default"}, {"role": "highest", "name": "high"}]}
+  ]
+}

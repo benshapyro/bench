@@ -1,0 +1,38 @@
+[
+ {
+  "id": "general-business-work",
+  "name": "General business work (finance, coding, legal, tax)",
+  "example": "Financial analysis, spreadsheets, legal research",
+  "main_benchmark": "vals-index",
+  "preset_task": null,
+  "note": "Shown as \"Writing and analysis\" only if Artificial Analysis permits GDPval-AA."
+ },
+ {
+  "id": "customer-service",
+  "name": "Customer service agents",
+  "example": "Answering customers while following company policy",
+  "main_benchmark": "tau3-banking",
+  "preset_task": null
+ },
+ {
+  "id": "using-software",
+  "name": "Using software for you",
+  "example": "Filling in forms, moving data between apps",
+  "main_benchmark": "osworld-2",
+  "preset_task": null
+ },
+ {
+  "id": "building-software",
+  "name": "Building software",
+  "example": "Writing and fixing code",
+  "main_benchmark": "terminal-bench-4",
+  "preset_task": null
+ },
+ {
+  "id": "reading-documents",
+  "name": "Reading charts and documents",
+  "example": "Pulling numbers from charts, scans, PDFs",
+  "main_benchmark": "gdp-pdf",
+  "preset_task": null
+ }
+]

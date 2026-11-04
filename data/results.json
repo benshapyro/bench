@@ -1,0 +1,2751 @@
+[
+ {
+  "id": "terminal-bench-4/claude-opus-5-5/unstated/main/vals_tb",
+  "model": "claude-opus-5-5",
+  "model_name": "Claude Opus 5.5",
+  "reasoning_level": {
+   "name": null,
+   "position": null,
+   "of": 5,
+   "as_shown": "not stated"
+  },
+  "benchmark": "terminal-bench-4",
+  "score": 65.15,
+  "score_unit": "%",
+  "kind": "main",
+  "test_conditions": {
+   "version": "4.0",
+   "tasks": 66,
+   "runner": "Vals AI",
+   "harness": "mini-SWE-agent (one bash tool), same for every model",
+   "aggregation": "average of 3 runs",
+   "partial_credit": false,
+   "effort": "not stated by Vals"
+  },
+  "reference_conditions_met": true,
+  "label": "Independent",
+  "source_name": "Vals AI: Terminal-Bench 4.0",
+  "source_url": "https://www.vals.ai/benchmarks/terminal-bench-4",
+  "source_date": "2026-10-26",
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "checked",
+   "how": "Read on the original page on 2026-10-29"
+  },
+  "cost_per_attempt_usd": null,
+  "tokens_per_attempt": null
+ },
+ {
+  "id": "terminal-bench-4/claude-sonnet-5-5/unstated/main/vals_tb",
+  "model": "claude-sonnet-5-5",
+  "model_name": "Claude Sonnet 5.5",
+  "reasoning_level": {
+   "name": null,
+   "position": null,
+   "of": 5,
+   "as_shown": "not stated"
+  },
+  "benchmark": "terminal-bench-4",
+  "score": 64.14,
+  "score_unit": "%",
+  "kind": "main",
+  "test_conditions": {
+   "version": "4.0",
+   "tasks": 66,
+   "runner": "Vals AI",
+   "harness": "mini-SWE-agent (one bash tool), same for every model",
+   "aggregation": "average of 3 runs",
+   "partial_credit": false,
+   "effort": "not stated by Vals"
+  },
+  "reference_conditions_met": true,
+  "label": "Independent",
+  "source_name": "Vals AI: Terminal-Bench 4.0",
+  "source_url": "https://www.vals.ai/benchmarks/terminal-bench-4",
+  "source_date": "2026-10-26",
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "checked",
+   "how": "Read on the original page on 2026-10-29"
+  },
+  "cost_per_attempt_usd": null,
+  "tokens_per_attempt": null
+ },
+ {
+  "id": "terminal-bench-4/gpt-6-astra/unstated/main/vals_tb",
+  "model": "gpt-6-astra",
+  "model_name": "GPT-6 Astra",
+  "reasoning_level": {
+   "name": null,
+   "position": null,
+   "of": 5,
+   "as_shown": "not stated"
+  },
+  "benchmark": "terminal-bench-4",
+  "score": 59.6,
+  "score_unit": "%",
+  "kind": "main",
+  "test_conditions": {
+   "version": "4.0",
+   "tasks": 66,
+   "runner": "Vals AI",
+   "harness": "mini-SWE-agent (one bash tool), same for every model",
+   "aggregation": "average of 3 runs",
+   "partial_credit": false,
+   "effort": "not stated by Vals"
+  },
+  "reference_conditions_met": true,
+  "label": "Independent",
+  "source_name": "Vals AI: Terminal-Bench 4.0",
+  "source_url": "https://www.vals.ai/benchmarks/terminal-bench-4",
+  "source_date": "2026-10-26",
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "checked",
+   "how": "Read on the original page on 2026-10-29"
+  },
+  "cost_per_attempt_usd": null,
+  "tokens_per_attempt": null
+ },
+ {
+  "id": "terminal-bench-4/claude-fable-5-1/unstated/main/vals_tb",
+  "model": "claude-fable-5-1",
+  "model_name": "Claude Fable 5.1",
+  "reasoning_level": {
+   "name": null,
+   "position": null,
+   "of": 5,
+   "as_shown": "not stated"
+  },
+  "benchmark": "terminal-bench-4",
+  "score": 58.08,
+  "score_unit": "%",
+  "kind": "main",
+  "test_conditions": {
+   "version": "4.0",
+   "tasks": 66,
+   "runner": "Vals AI",
+   "harness": "mini-SWE-agent (one bash tool), same for every model",
+   "aggregation": "average of 3 runs",
+   "partial_credit": false,
+   "effort": "not stated by Vals"
+  },
+  "reference_conditions_met": true,
+  "label": "Independent",
+  "source_name": "Vals AI: Terminal-Bench 4.0",
+  "source_url": "https://www.vals.ai/benchmarks/terminal-bench-4",
+  "source_date": "2026-10-26",
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "checked",
+   "how": "Read on the original page on 2026-10-29"
+  },
+  "cost_per_attempt_usd": null,
+  "tokens_per_attempt": null
+ },
+ {
+  "id": "terminal-bench-4/gemini-4-argon/unstated/main/vals_tb",
+  "model": "gemini-4-argon",
+  "model_name": "Gemini 4 Argon",
+  "reasoning_level": {
+   "name": null,
+   "position": null,
+   "of": 3,
+   "as_shown": "not stated"
+  },
+  "benchmark": "terminal-bench-4",
+  "score": 57.58,
+  "score_unit": "%",
+  "kind": "main",
+  "test_conditions": {
+   "version": "4.0",
+   "tasks": 66,
+   "runner": "Vals AI",
+   "harness": "mini-SWE-agent (one bash tool), same for every model",
+   "aggregation": "average of 3 runs",
+   "partial_credit": false,
+   "effort": "not stated by Vals"
+  },
+  "reference_conditions_met": true,
+  "label": "Independent",
+  "source_name": "Vals AI: Terminal-Bench 4.0",
+  "source_url": "https://www.vals.ai/benchmarks/terminal-bench-4",
+  "source_date": "2026-10-26",
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "checked",
+   "how": "Read on the original page on 2026-10-29"
+  },
+  "cost_per_attempt_usd": null,
+  "tokens_per_attempt": null
+ },
+ {
+  "id": "terminal-bench-4/gpt-6.1-sol/unstated/main/vals_tb",
+  "model": "gpt-6.1-sol",
+  "model_name": "GPT-6.1 Sol",
+  "reasoning_level": {
+   "name": null,
+   "position": null,
+   "of": 5,
+   "as_shown": "not stated"
+  },
+  "benchmark": "terminal-bench-4",
+  "score": 55.05,
+  "score_unit": "%",
+  "kind": "main",
+  "test_conditions": {
+   "version": "4.0",
+   "tasks": 66,
+   "runner": "Vals AI",
+   "harness": "mini-SWE-agent (one bash tool), same for every model",
+   "aggregation": "average of 3 runs",
+   "partial_credit": false,
+   "effort": "not stated by Vals"
+  },
+  "reference_conditions_met": true,
+  "label": "Independent",
+  "source_name": "Vals AI: Terminal-Bench 4.0",
+  "source_url": "https://www.vals.ai/benchmarks/terminal-bench-4",
+  "source_date": "2026-10-26",
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "checked",
+   "how": "Read on the original page on 2026-10-29"
+  },
+  "cost_per_attempt_usd": null,
+  "tokens_per_attempt": null
+ },
+ {
+  "id": "terminal-bench-4/glm-5.3-flash/unstated/main/vals_tb",
+  "model": "glm-5.3-flash",
+  "model_name": "GLM-5.3-Flash",
+  "reasoning_level": {
+   "name": null,
+   "position": null,
+   "of": 3,
+   "as_shown": "not stated"
+  },
+  "benchmark": "terminal-bench-4",
+  "score": 37.37,
+  "score_unit": "%",
+  "kind": "main",
+  "test_conditions": {
+   "version": "4.0",
+   "tasks": 66,
+   "runner": "Vals AI",
+   "harness": "mini-SWE-agent (one bash tool), same for every model",
+   "aggregation": "average of 3 runs",
+   "partial_credit": false,
+   "effort": "not stated by Vals"
+  },
+  "reference_conditions_met": true,
+  "label": "Independent",
+  "source_name": "Vals AI: Terminal-Bench 4.0",
+  "source_url": "https://www.vals.ai/benchmarks/terminal-bench-4",
+  "source_date": "2026-10-26",
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "checked",
+   "how": "Read on the original page on 2026-10-29"
+  },
+  "cost_per_attempt_usd": null,
+  "tokens_per_attempt": null
+ },
+ {
+  "id": "terminal-bench-4/claude-haiku-5-5/unstated/main/vals_tb",
+  "model": "claude-haiku-5-5",
+  "model_name": "Claude Haiku 5.5",
+  "reasoning_level": {
+   "name": null,
+   "position": null,
+   "of": 5,
+   "as_shown": "not stated"
+  },
+  "benchmark": "terminal-bench-4",
+  "score": 36.36,
+  "score_unit": "%",
+  "kind": "main",
+  "test_conditions": {
+   "version": "4.0",
+   "tasks": 66,
+   "runner": "Vals AI",
+   "harness": "mini-SWE-agent (one bash tool), same for every model",
+   "aggregation": "average of 3 runs",
+   "partial_credit": false,
+   "effort": "not stated by Vals"
+  },
+  "reference_conditions_met": true,
+  "label": "Independent",
+  "source_name": "Vals AI: Terminal-Bench 4.0",
+  "source_url": "https://www.vals.ai/benchmarks/terminal-bench-4",
+  "source_date": "2026-10-26",
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "checked",
+   "how": "Read on the original page on 2026-10-29"
+  },
+  "cost_per_attempt_usd": null,
+  "tokens_per_attempt": null
+ },
+ {
+  "id": "terminal-bench-4/deepseek-v4.1-flash/unstated/main/vals_tb",
+  "model": "deepseek-v4.1-flash",
+  "model_name": "DeepSeek V4.1 Flash",
+  "reasoning_level": {
+   "name": null,
+   "position": null,
+   "of": 3,
+   "as_shown": "not stated"
+  },
+  "benchmark": "terminal-bench-4",
+  "score": 31.82,
+  "score_unit": "%",
+  "kind": "main",
+  "test_conditions": {
+   "version": "4.0",
+   "tasks": 66,
+   "runner": "Vals AI",
+   "harness": "mini-SWE-agent (one bash tool), same for every model",
+   "aggregation": "average of 3 runs",
+   "partial_credit": false,
+   "effort": "not stated by Vals"
+  },
+  "reference_conditions_met": true,
+  "label": "Independent",
+  "source_name": "Vals AI: Terminal-Bench 4.0",
+  "source_url": "https://www.vals.ai/benchmarks/terminal-bench-4",
+  "source_date": "2026-10-26",
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "checked",
+   "how": "Read on the original page on 2026-10-29"
+  },
+  "cost_per_attempt_usd": null,
+  "tokens_per_attempt": null,
+  "notes": "Vals row \"DeepSeek V4.1 Flash 1017\", the snapshot DeepSeek's API serves now. Vals also lists the earlier V4.1 Flash at 19.70%, kept below as non-reference."
+ },
+ {
+  "id": "terminal-bench-4/grok-4.7/unstated/main/vals_tb",
+  "model": "grok-4.7",
+  "model_name": "Grok 4.7",
+  "reasoning_level": {
+   "name": null,
+   "position": null,
+   "of": 4,
+   "as_shown": "not stated"
+  },
+  "benchmark": "terminal-bench-4",
+  "score": 28.79,
+  "score_unit": "%",
+  "kind": "main",
+  "test_conditions": {
+   "version": "4.0",
+   "tasks": 66,
+   "runner": "Vals AI",
+   "harness": "mini-SWE-agent (one bash tool), same for every model",
+   "aggregation": "average of 3 runs",
+   "partial_credit": false,
+   "effort": "not stated by Vals"
+  },
+  "reference_conditions_met": true,
+  "label": "Independent",
+  "source_name": "Vals AI: Terminal-Bench 4.0",
+  "source_url": "https://www.vals.ai/benchmarks/terminal-bench-4",
+  "source_date": "2026-10-26",
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "checked",
+   "how": "Read on the original page on 2026-10-29"
+  },
+  "cost_per_attempt_usd": null,
+  "tokens_per_attempt": null
+ },
+ {
+  "id": "terminal-bench-4/mimo-v2.6-flash/unstated/main/vals_tb",
+  "model": "mimo-v2.6-flash",
+  "model_name": "MiMo-V2.6-Flash",
+  "reasoning_level": {
+   "name": null,
+   "position": null,
+   "of": null,
+   "as_shown": "not stated"
+  },
+  "benchmark": "terminal-bench-4",
+  "score": 24.24,
+  "score_unit": "%",
+  "kind": "main",
+  "test_conditions": {
+   "version": "4.0",
+   "tasks": 66,
+   "runner": "Vals AI",
+   "harness": "mini-SWE-agent (one bash tool), same for every model",
+   "aggregation": "average of 3 runs",
+   "partial_credit": false,
+   "effort": "not stated by Vals"
+  },
+  "reference_conditions_met": true,
+  "label": "Independent",
+  "source_name": "Vals AI: Terminal-Bench 4.0",
+  "source_url": "https://www.vals.ai/benchmarks/terminal-bench-4",
+  "source_date": "2026-10-26",
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "checked",
+   "how": "Read on the original page on 2026-10-29"
+  },
+  "cost_per_attempt_usd": null,
+  "tokens_per_attempt": null
+ },
+ {
+  "id": "terminal-bench-4/gemini-3.8-flash/unstated/main/vals_tb",
+  "model": "gemini-3.8-flash",
+  "model_name": "Gemini 3.8 Flash",
+  "reasoning_level": {
+   "name": null,
+   "position": null,
+   "of": 3,
+   "as_shown": "not stated"
+  },
+  "benchmark": "terminal-bench-4",
+  "score": 19.7,
+  "score_unit": "%",
+  "kind": "main",
+  "test_conditions": {
+   "version": "4.0",
+   "tasks": 66,
+   "runner": "Vals AI",
+   "harness": "mini-SWE-agent (one bash tool), same for every model",
+   "aggregation": "average of 3 runs",
+   "partial_credit": false,
+   "effort": "not stated by Vals"
+  },
+  "reference_conditions_met": true,
+  "label": "Independent",
+  "source_name": "Vals AI: Terminal-Bench 4.0",
+  "source_url": "https://www.vals.ai/benchmarks/terminal-bench-4",
+  "source_date": "2026-10-26",
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "checked",
+   "how": "Read on the original page on 2026-10-29"
+  },
+  "cost_per_attempt_usd": null,
+  "tokens_per_attempt": null
+ },
+ {
+  "id": "terminal-bench-4/gpt-6-luna/unstated/main/vals_tb",
+  "model": "gpt-6-luna",
+  "model_name": "GPT-6 Luna",
+  "reasoning_level": {
+   "name": null,
+   "position": null,
+   "of": 6,
+   "as_shown": "not stated"
+  },
+  "benchmark": "terminal-bench-4",
+  "score": 13.64,
+  "score_unit": "%",
+  "kind": "main",
+  "test_conditions": {
+   "version": "4.0",
+   "tasks": 66,
+   "runner": "Vals AI",
+   "harness": "mini-SWE-agent (one bash tool), same for every model",
+   "aggregation": "average of 3 runs",
+   "partial_credit": false,
+   "effort": "not stated by Vals"
+  },
+  "reference_conditions_met": true,
+  "label": "Independent",
+  "source_name": "Vals AI: Terminal-Bench 4.0",
+  "source_url": "https://www.vals.ai/benchmarks/terminal-bench-4",
+  "source_date": "2026-10-26",
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "checked",
+   "how": "Read on the original page on 2026-10-29"
+  },
+  "cost_per_attempt_usd": null,
+  "tokens_per_attempt": null
+ },
+ {
+  "id": "terminal-bench-4/deepseek-v4.1-flash/unstated/superseded_snapshot/vals_tb",
+  "model": "deepseek-v4.1-flash",
+  "model_name": "DeepSeek V4.1 Flash",
+  "reasoning_level": {
+   "name": null,
+   "position": null,
+   "of": 3,
+   "as_shown": "not stated"
+  },
+  "benchmark": "terminal-bench-4",
+  "score": 19.7,
+  "score_unit": "%",
+  "kind": "superseded_snapshot",
+  "test_conditions": {
+   "version": "4.0",
+   "tasks": 66,
+   "runner": "Vals AI",
+   "harness": "mini-SWE-agent (one bash tool), same for every model",
+   "aggregation": "average of 3 runs",
+   "partial_credit": false,
+   "effort": "not stated by Vals"
+  },
+  "reference_conditions_met": false,
+  "label": "Independent",
+  "source_name": "Vals AI: Terminal-Bench 4.0",
+  "source_url": "https://www.vals.ai/benchmarks/terminal-bench-4",
+  "source_date": "2026-10-26",
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "checked",
+   "how": "Read on the original page on 2026-10-29"
+  },
+  "cost_per_attempt_usd": null,
+  "tokens_per_attempt": null,
+  "notes": "Earlier V4.1 Flash snapshot (before 1017). Not what the API serves today."
+ },
+ {
+  "id": "terminal-bench-4/claude-opus-5-5/xhigh/non_reference/a_opus",
+  "model": "claude-opus-5-5",
+  "model_name": "Claude Opus 5.5",
+  "reasoning_level": {
+   "name": "xhigh",
+   "position": 4,
+   "of": 5,
+   "as_shown": "xhigh"
+  },
+  "benchmark": "terminal-bench-4",
+  "score": 66.4,
+  "score_unit": "%",
+  "kind": "non_reference",
+  "test_conditions": {
+   "version": "4.0",
+   "runner": "the lab itself",
+   "harness": "Anthropic's own harness"
+  },
+  "reference_conditions_met": false,
+  "label": "Lab-reported",
+  "source_name": "Anthropic: Claude Opus 5.5",
+  "source_url": "https://www.anthropic.com/claude-opus-5-5",
+  "source_date": "2026-09-22",
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "checked",
+   "how": "Read on the original page on 2026-10-29"
+  },
+  "cost_per_attempt_usd": null,
+  "tokens_per_attempt": null,
+  "notes": "Page footnote: Opus 5.5 at xhigh, its highest score. Page chart gives every level: low 38.5, medium 57.6, high 64.2, xhigh 66.4, max 64.8 (cost per task $1.29 to $11.24)."
+ },
+ {
+  "id": "terminal-bench-4/claude-sonnet-5-5/max/non_reference/a_sonnet",
+  "model": "claude-sonnet-5-5",
+  "model_name": "Claude Sonnet 5.5",
+  "reasoning_level": {
+   "name": "max",
+   "position": 5,
+   "of": 5,
+   "as_shown": "max"
+  },
+  "benchmark": "terminal-bench-4",
+  "score": 70.6,
+  "score_unit": "%",
+  "kind": "non_reference",
+  "test_conditions": {
+   "version": "4.0",
+   "runner": "the lab itself",
+   "harness": "Anthropic's own harness"
+  },
+  "reference_conditions_met": false,
+  "label": "Lab-reported",
+  "source_name": "Anthropic: Claude Sonnet 5.5",
+  "source_url": "https://www.anthropic.com/claude-sonnet-5-5",
+  "source_date": "2026-09-28",
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "checked",
+   "how": "Read from the chart's own data embedded in the original page on 2026-10-29 (exact values, not read by eye)"
+  },
+  "cost_per_attempt_usd": 12.54,
+  "tokens_per_attempt": null,
+  "notes": "Page chart, every level: low 20.0, medium 28.8, high 43.0, xhigh 61.5, max 70.6."
+ },
+ {
+  "id": "terminal-bench-4/claude-haiku-5-5/max/non_reference/a_haiku",
+  "model": "claude-haiku-5-5",
+  "model_name": "Claude Haiku 5.5",
+  "reasoning_level": {
+   "name": "max",
+   "position": 5,
+   "of": 5,
+   "as_shown": "max"
+  },
+  "benchmark": "terminal-bench-4",
+  "score": 39.2,
+  "score_unit": "%",
+  "kind": "non_reference",
+  "test_conditions": {
+   "version": "4.0",
+   "runner": "the lab itself",
+   "harness": "Anthropic's own harness"
+  },
+  "reference_conditions_met": false,
+  "label": "Lab-reported",
+  "source_name": "Anthropic: Claude Haiku 5.5",
+  "source_url": "https://www.anthropic.com/claude-haiku-5-5",
+  "source_date": "2026-10-07",
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "checked",
+   "how": "Read from the chart's own data embedded in the original page on 2026-10-29 (exact values, not read by eye)"
+  },
+  "cost_per_attempt_usd": 2.64,
+  "tokens_per_attempt": null,
+  "notes": "Page chart, every level: low 12.7, medium 20.3, high 24.8, xhigh 31.5, max 39.2."
+ },
+ {
+  "id": "terminal-bench-4/claude-fable-5-1/max/non_reference/a_fable",
+  "model": "claude-fable-5-1",
+  "model_name": "Claude Fable 5.1",
+  "reasoning_level": {
+   "name": "max",
+   "position": 5,
+   "of": 5,
+   "as_shown": "max"
+  },
+  "benchmark": "terminal-bench-4",
+  "score": 55.8,
+  "score_unit": "%",
+  "kind": "non_reference",
+  "test_conditions": {
+   "version": "4.0",
+   "runner": "the lab itself",
+   "harness": "Anthropic's own harness"
+  },
+  "reference_conditions_met": false,
+  "label": "Lab-reported",
+  "source_name": "Anthropic: Claude Fable 5.1 and Mythos 5.1",
+  "source_url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+  "source_date": "2026-09-01",
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "checked",
+   "how": "Read from the chart's own data embedded in the original page on 2026-10-29 (exact values, not read by eye)"
+  },
+  "cost_per_attempt_usd": 19.5,
+  "tokens_per_attempt": null,
+  "notes": "Page chart, every level: low 40.2, medium 43.4, high 49.4, xhigh 51.3, max 55.8."
+ },
+ {
+  "id": "terminal-bench-4/gemini-4-argon/high/non_reference/g_argon",
+  "model": "gemini-4-argon",
+  "model_name": "Gemini 4 Argon",
+  "reasoning_level": {
+   "name": "high",
+   "position": 3,
+   "of": 3,
+   "as_shown": "highest thinking setting (methodology default)"
+  },
+  "benchmark": "terminal-bench-4",
+  "score": 57.4,
+  "score_unit": "%",
+  "kind": "non_reference",
+  "test_conditions": {
+   "version": "4.0",
+   "runner": "the lab itself",
+   "harness": "Google's own run"
+  },
+  "reference_conditions_met": false,
+  "label": "Lab-reported",
+  "source_name": "Google DeepMind: Gemini 4 Argon model card",
+  "source_url": "https://deepmind.google/models/model-cards/gemini-4-argon/",
+  "source_date": "2026-10-13",
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "checked",
+   "how": "Read on the original page on 2026-10-29"
+  },
+  "cost_per_attempt_usd": null,
+  "tokens_per_attempt": null
+ },
+ {
+  "id": "vals-index/claude-sonnet-5-5/unstated/main/vals_idx",
+  "model": "claude-sonnet-5-5",
+  "model_name": "Claude Sonnet 5.5",
+  "reasoning_level": {
+   "name": null,
+   "position": null,
+   "of": 5,
+   "as_shown": "not stated"
+  },
+  "benchmark": "vals-index",
+  "score": 70.85,
+  "score_unit": "%",
+  "kind": "main",
+  "test_conditions": {
+   "version": "2.2",
+   "runner": "Vals AI",
+   "weights": "Finance 8.0, Coding 5.6, Legal 1.2, Tax 0.5 (of 15.3)",
+   "effort": "not stated by Vals"
+  },
+  "reference_conditions_met": true,
+  "label": "Independent",
+  "source_name": "Vals AI: Vals Index",
+  "source_url": "https://www.vals.ai/benchmarks/vals_index",
+  "source_date": "2026-10-27",
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "checked",
+   "how": "Read on the original page on 2026-10-29"
+  },
+  "cost_per_attempt_usd": null,
+  "tokens_per_attempt": null
+ },
+ {
+  "id": "vals-index/claude-opus-5-5/unstated/main/vals_idx",
+  "model": "claude-opus-5-5",
+  "model_name": "Claude Opus 5.5",
+  "reasoning_level": {
+   "name": null,
+   "position": null,
+   "of": 5,
+   "as_shown": "not stated"
+  },
+  "benchmark": "vals-index",
+  "score": 70.18,
+  "score_unit": "%",
+  "kind": "main",
+  "test_conditions": {
+   "version": "2.2",
+   "runner": "Vals AI",
+   "weights": "Finance 8.0, Coding 5.6, Legal 1.2, Tax 0.5 (of 15.3)",
+   "effort": "not stated by Vals"
+  },
+  "reference_conditions_met": true,
+  "label": "Independent",
+  "source_name": "Vals AI: Vals Index",
+  "source_url": "https://www.vals.ai/benchmarks/vals_index",
+  "source_date": "2026-10-27",
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "checked",
+   "how": "Read on the original page on 2026-10-29"
+  },
+  "cost_per_attempt_usd": null,
+  "tokens_per_attempt": null
+ },
+ {
+  "id": "vals-index/gemini-4-argon/unstated/main/vals_idx",
+  "model": "gemini-4-argon",
+  "model_name": "Gemini 4 Argon",
+  "reasoning_level": {
+   "name": null,
+   "position": null,
+   "of": 3,
+   "as_shown": "not stated"
+  },
+  "benchmark": "vals-index",
+  "score": 69.24,
+  "score_unit": "%",
+  "kind": "main",
+  "test_conditions": {
+   "version": "2.2",
+   "runner": "Vals AI",
+   "weights": "Finance 8.0, Coding 5.6, Legal 1.2, Tax 0.5 (of 15.3)",
+   "effort": "not stated by Vals"
+  },
+  "reference_conditions_met": true,
+  "label": "Independent",
+  "source_name": "Vals AI: Vals Index",
+  "source_url": "https://www.vals.ai/benchmarks/vals_index",
+  "source_date": "2026-10-27",
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "checked",
+   "how": "Read on the original page on 2026-10-29"
+  },
+  "cost_per_attempt_usd": null,
+  "tokens_per_attempt": null
+ },
+ {
+  "id": "vals-index/gpt-6-astra/unstated/main/vals_idx",
+  "model": "gpt-6-astra",
+  "model_name": "GPT-6 Astra",
+  "reasoning_level": {
+   "name": null,
+   "position": null,
+   "of": 5,
+   "as_shown": "not stated"
+  },
+  "benchmark": "vals-index",
+  "score": 65.02,
+  "score_unit": "%",
+  "kind": "main",
+  "test_conditions": {
+   "version": "2.2",
+   "runner": "Vals AI",
+   "weights": "Finance 8.0, Coding 5.6, Legal 1.2, Tax 0.5 (of 15.3)",
+   "effort": "not stated by Vals"
+  },
+  "reference_conditions_met": true,
+  "label": "Independent",
+  "source_name": "Vals AI: Vals Index",
+  "source_url": "https://www.vals.ai/benchmarks/vals_index",
+  "source_date": "2026-10-27",
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "checked",
+   "how": "Read on the original page on 2026-10-29"
+  },
+  "cost_per_attempt_usd": null,
+  "tokens_per_attempt": null
+ },
+ {
+  "id": "vals-index/gpt-6.1-sol/unstated/main/vals_idx",
+  "model": "gpt-6.1-sol",
+  "model_name": "GPT-6.1 Sol",
+  "reasoning_level": {
+   "name": null,
+   "position": null,
+   "of": 5,
+   "as_shown": "not stated"
+  },
+  "benchmark": "vals-index",
+  "score": 63.94,
+  "score_unit": "%",
+  "kind": "main",
+  "test_conditions": {
+   "version": "2.2",
+   "runner": "Vals AI",
+   "weights": "Finance 8.0, Coding 5.6, Legal 1.2, Tax 0.5 (of 15.3)",
+   "effort": "not stated by Vals"
+  },
+  "reference_conditions_met": true,
+  "label": "Independent",
+  "source_name": "Vals AI: Vals Index",
+  "source_url": "https://www.vals.ai/benchmarks/vals_index",
+  "source_date": "2026-10-27",
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "checked",
+   "how": "Read on the original page on 2026-10-29"
+  },
+  "cost_per_attempt_usd": null,
+  "tokens_per_attempt": null
+ },
+ {
+  "id": "vals-index/deepseek-v4.1-flash/unstated/main/vals_idx",
+  "model": "deepseek-v4.1-flash",
+  "model_name": "DeepSeek V4.1 Flash",
+  "reasoning_level": {
+   "name": null,
+   "position": null,
+   "of": 3,
+   "as_shown": "not stated"
+  },
+  "benchmark": "vals-index",
+  "score": 61.26,
+  "score_unit": "%",
+  "kind": "main",
+  "test_conditions": {
+   "version": "2.2",
+   "runner": "Vals AI",
+   "weights": "Finance 8.0, Coding 5.6, Legal 1.2, Tax 0.5 (of 15.3)",
+   "effort": "not stated by Vals"
+  },
+  "reference_conditions_met": true,
+  "label": "Independent",
+  "source_name": "Vals AI: Vals Index",
+  "source_url": "https://www.vals.ai/benchmarks/vals_index",
+  "source_date": "2026-10-27",
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "checked",
+   "how": "Read on the original page on 2026-10-29"
+  },
+  "cost_per_attempt_usd": null,
+  "tokens_per_attempt": null,
+  "notes": "Vals row \"DeepSeek V4.1 Flash 1017\", the snapshot DeepSeek's API serves now. On v2.1 the earlier snapshot scored 51.32; that row is gone from v2.2."
+ },
+ {
+  "id": "vals-index/claude-haiku-5-5/unstated/main/vals_idx",
+  "model": "claude-haiku-5-5",
+  "model_name": "Claude Haiku 5.5",
+  "reasoning_level": {
+   "name": null,
+   "position": null,
+   "of": 5,
+   "as_shown": "not stated"
+  },
+  "benchmark": "vals-index",
+  "score": 58.73,
+  "score_unit": "%",
+  "kind": "main",
+  "test_conditions": {
+   "version": "2.2",
+   "runner": "Vals AI",
+   "weights": "Finance 8.0, Coding 5.6, Legal 1.2, Tax 0.5 (of 15.3)",
+   "effort": "not stated by Vals"
+  },
+  "reference_conditions_met": true,
+  "label": "Independent",
+  "source_name": "Vals AI: Vals Index",
+  "source_url": "https://www.vals.ai/benchmarks/vals_index",
+  "source_date": "2026-10-27",
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "checked",
+   "how": "Read on the original page on 2026-10-29"
+  },
+  "cost_per_attempt_usd": null,
+  "tokens_per_attempt": null
+ },
+ {
+  "id": "vals-index/grok-4.7/unstated/main/vals_idx",
+  "model": "grok-4.7",
+  "model_name": "Grok 4.7",
+  "reasoning_level": {
+   "name": null,
+   "position": null,
+   "of": 4,
+   "as_shown": "not stated"
+  },
+  "benchmark": "vals-index",
+  "score": 58.56,
+  "score_unit": "%",
+  "kind": "main",
+  "test_conditions": {
+   "version": "2.2",
+   "runner": "Vals AI",
+   "weights": "Finance 8.0, Coding 5.6, Legal 1.2, Tax 0.5 (of 15.3)",
+   "effort": "not stated by Vals"
+  },
+  "reference_conditions_met": true,
+  "label": "Independent",
+  "source_name": "Vals AI: Vals Index",
+  "source_url": "https://www.vals.ai/benchmarks/vals_index",
+  "source_date": "2026-10-27",
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "checked",
+   "how": "Read on the original page on 2026-10-29"
+  },
+  "cost_per_attempt_usd": null,
+  "tokens_per_attempt": null
+ },
+ {
+  "id": "vals-index/gemini-3.8-flash/unstated/main/vals_idx",
+  "model": "gemini-3.8-flash",
+  "model_name": "Gemini 3.8 Flash",
+  "reasoning_level": {
+   "name": null,
+   "position": null,
+   "of": 3,
+   "as_shown": "not stated"
+  },
+  "benchmark": "vals-index",
+  "score": 55.95,
+  "score_unit": "%",
+  "kind": "main",
+  "test_conditions": {
+   "version": "2.2",
+   "runner": "Vals AI",
+   "weights": "Finance 8.0, Coding 5.6, Legal 1.2, Tax 0.5 (of 15.3)",
+   "effort": "not stated by Vals"
+  },
+  "reference_conditions_met": true,
+  "label": "Independent",
+  "source_name": "Vals AI: Vals Index",
+  "source_url": "https://www.vals.ai/benchmarks/vals_index",
+  "source_date": "2026-10-27",
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "checked",
+   "how": "Read on the original page on 2026-10-29"
+  },
+  "cost_per_attempt_usd": null,
+  "tokens_per_attempt": null
+ },
+ {
+  "id": "vals-index/mimo-v2.6-flash/unstated/main/vals_idx",
+  "model": "mimo-v2.6-flash",
+  "model_name": "MiMo-V2.6-Flash",
+  "reasoning_level": {
+   "name": null,
+   "position": null,
+   "of": null,
+   "as_shown": "not stated"
+  },
+  "benchmark": "vals-index",
+  "score": 54.83,
+  "score_unit": "%",
+  "kind": "main",
+  "test_conditions": {
+   "version": "2.2",
+   "runner": "Vals AI",
+   "weights": "Finance 8.0, Coding 5.6, Legal 1.2, Tax 0.5 (of 15.3)",
+   "effort": "not stated by Vals"
+  },
+  "reference_conditions_met": true,
+  "label": "Independent",
+  "source_name": "Vals AI: Vals Index",
+  "source_url": "https://www.vals.ai/benchmarks/vals_index",
+  "source_date": "2026-10-27",
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "checked",
+   "how": "Read on the original page on 2026-10-29"
+  },
+  "cost_per_attempt_usd": null,
+  "tokens_per_attempt": null
+ },
+ {
+  "id": "vals-index/gpt-6-luna/unstated/main/vals_idx",
+  "model": "gpt-6-luna",
+  "model_name": "GPT-6 Luna",
+  "reasoning_level": {
+   "name": null,
+   "position": null,
+   "of": 6,
+   "as_shown": "not stated"
+  },
+  "benchmark": "vals-index",
+  "score": 52.32,
+  "score_unit": "%",
+  "kind": "main",
+  "test_conditions": {
+   "version": "2.2",
+   "runner": "Vals AI",
+   "weights": "Finance 8.0, Coding 5.6, Legal 1.2, Tax 0.5 (of 15.3)",
+   "effort": "not stated by Vals"
+  },
+  "reference_conditions_met": true,
+  "label": "Independent",
+  "source_name": "Vals AI: Vals Index",
+  "source_url": "https://www.vals.ai/benchmarks/vals_index",
+  "source_date": "2026-10-27",
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "checked",
+   "how": "Read on the original page on 2026-10-29"
+  },
+  "cost_per_attempt_usd": null,
+  "tokens_per_attempt": null
+ },
+ {
+  "id": "vals-index/glm-5.3-flash/unstated/main/vals_idx",
+  "model": "glm-5.3-flash",
+  "model_name": "GLM-5.3-Flash",
+  "reasoning_level": {
+   "name": null,
+   "position": null,
+   "of": 3,
+   "as_shown": "not stated"
+  },
+  "benchmark": "vals-index",
+  "score": 50.86,
+  "score_unit": "%",
+  "kind": "main",
+  "test_conditions": {
+   "version": "2.2",
+   "runner": "Vals AI",
+   "weights": "Finance 8.0, Coding 5.6, Legal 1.2, Tax 0.5 (of 15.3)",
+   "effort": "not stated by Vals"
+  },
+  "reference_conditions_met": true,
+  "label": "Independent",
+  "source_name": "Vals AI: Vals Index",
+  "source_url": "https://www.vals.ai/benchmarks/vals_index",
+  "source_date": "2026-10-27",
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "checked",
+   "how": "Read on the original page on 2026-10-29"
+  },
+  "cost_per_attempt_usd": null,
+  "tokens_per_attempt": null
+ },
+ {
+  "id": "vals-index/claude-fable-5-1/unstated/older_version/vals_idx",
+  "model": "claude-fable-5-1",
+  "model_name": "Claude Fable 5.1",
+  "reasoning_level": {
+   "name": null,
+   "position": null,
+   "of": 5,
+   "as_shown": "not stated"
+  },
+  "benchmark": "vals-index",
+  "score": 65.83,
+  "score_unit": "%",
+  "kind": "older_version",
+  "test_conditions": {
+   "version": "2.1",
+   "runner": "Vals AI",
+   "weights": "Finance 8.0, Coding 5.6, Legal 1.2, Tax 0.5 (of 15.3)",
+   "effort": "not stated by Vals"
+  },
+  "reference_conditions_met": false,
+  "label": "Independent",
+  "source_name": "Vals AI: Vals Index",
+  "source_url": "https://www.vals.ai/benchmarks/vals_index",
+  "source_date": "2026-10-27",
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "seen earlier",
+   "how": "Seen on the original page on 2026-10-17; no longer visible on 2026-10-29 because the board shows only its top 5"
+  },
+  "cost_per_attempt_usd": null,
+  "tokens_per_attempt": null,
+  "notes": "Fable 5.1 was 65.83% on Vals Index v2.1 (Oct 17). It is not listed on v2.2 (Oct 27), and versions are never mixed, so it is left out for now."
+ },
+ {
+  "id": "gdp-pdf/gpt-6.1-sol/max/main/surge",
+  "model": "gpt-6.1-sol",
+  "model_name": "GPT-6.1 Sol",
+  "reasoning_level": {
+   "name": "max",
+   "position": 5,
+   "of": 5,
+   "as_shown": "Max reasoning"
+  },
+  "benchmark": "gdp-pdf",
+  "score": 35.0,
+  "score_unit": "%",
+  "kind": "main",
+  "test_conditions": {
+   "documents": 100,
+   "runner": "Surge AI",
+   "metric": "strict pass rate: every rubric item right (per the GDP.pdf paper; the live board just says \"Score\")"
+  },
+  "reference_conditions_met": true,
+  "label": "Independent",
+  "source_name": "Surge AI: GDP.pdf leaderboard",
+  "source_url": "https://surgehq.ai/benchmarks/gdp-pdf",
+  "source_date": null,
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "checked",
+   "how": "Read on the original page on 2026-10-29"
+  },
+  "cost_per_attempt_usd": null,
+  "tokens_per_attempt": null
+ },
+ {
+  "id": "gdp-pdf/gpt-6-astra/max/main/surge",
+  "model": "gpt-6-astra",
+  "model_name": "GPT-6 Astra",
+  "reasoning_level": {
+   "name": "max",
+   "position": 5,
+   "of": 5,
+   "as_shown": "Max reasoning"
+  },
+  "benchmark": "gdp-pdf",
+  "score": 34.2,
+  "score_unit": "%",
+  "kind": "main",
+  "test_conditions": {
+   "documents": 100,
+   "runner": "Surge AI",
+   "metric": "strict pass rate: every rubric item right (per the GDP.pdf paper; the live board just says \"Score\")"
+  },
+  "reference_conditions_met": true,
+  "label": "Independent",
+  "source_name": "Surge AI: GDP.pdf leaderboard",
+  "source_url": "https://surgehq.ai/benchmarks/gdp-pdf",
+  "source_date": null,
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "checked",
+   "how": "Read on the original page on 2026-10-29"
+  },
+  "cost_per_attempt_usd": null,
+  "tokens_per_attempt": null
+ },
+ {
+  "id": "gdp-pdf/claude-sonnet-5-5/max/main/surge",
+  "model": "claude-sonnet-5-5",
+  "model_name": "Claude Sonnet 5.5",
+  "reasoning_level": {
+   "name": "max",
+   "position": 5,
+   "of": 5,
+   "as_shown": "Adaptive/Max"
+  },
+  "benchmark": "gdp-pdf",
+  "score": 31.4,
+  "score_unit": "%",
+  "kind": "main",
+  "test_conditions": {
+   "documents": 100,
+   "runner": "Surge AI",
+   "metric": "strict pass rate: every rubric item right (per the GDP.pdf paper; the live board just says \"Score\")"
+  },
+  "reference_conditions_met": true,
+  "label": "Independent",
+  "source_name": "Surge AI: GDP.pdf leaderboard",
+  "source_url": "https://surgehq.ai/benchmarks/gdp-pdf",
+  "source_date": null,
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "checked",
+   "how": "Read on the original page on 2026-10-29"
+  },
+  "cost_per_attempt_usd": null,
+  "tokens_per_attempt": null
+ },
+ {
+  "id": "gdp-pdf/claude-opus-5-5/max/main/surge",
+  "model": "claude-opus-5-5",
+  "model_name": "Claude Opus 5.5",
+  "reasoning_level": {
+   "name": "max",
+   "position": 5,
+   "of": 5,
+   "as_shown": "Adaptive/Max"
+  },
+  "benchmark": "gdp-pdf",
+  "score": 30.6,
+  "score_unit": "%",
+  "kind": "main",
+  "test_conditions": {
+   "documents": 100,
+   "runner": "Surge AI",
+   "metric": "strict pass rate: every rubric item right (per the GDP.pdf paper; the live board just says \"Score\")"
+  },
+  "reference_conditions_met": true,
+  "label": "Independent",
+  "source_name": "Surge AI: GDP.pdf leaderboard",
+  "source_url": "https://surgehq.ai/benchmarks/gdp-pdf",
+  "source_date": null,
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "checked",
+   "how": "Read on the original page on 2026-10-29"
+  },
+  "cost_per_attempt_usd": null,
+  "tokens_per_attempt": null
+ },
+ {
+  "id": "gdp-pdf/gemini-4-argon/high/main/surge",
+  "model": "gemini-4-argon",
+  "model_name": "Gemini 4 Argon",
+  "reasoning_level": {
+   "name": "high",
+   "position": 3,
+   "of": 3,
+   "as_shown": "High reasoning"
+  },
+  "benchmark": "gdp-pdf",
+  "score": 28.4,
+  "score_unit": "%",
+  "kind": "main",
+  "test_conditions": {
+   "documents": 100,
+   "runner": "Surge AI",
+   "metric": "strict pass rate: every rubric item right (per the GDP.pdf paper; the live board just says \"Score\")"
+  },
+  "reference_conditions_met": true,
+  "label": "Independent",
+  "source_name": "Surge AI: GDP.pdf leaderboard",
+  "source_url": "https://surgehq.ai/benchmarks/gdp-pdf",
+  "source_date": null,
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "checked",
+   "how": "Read on the original page on 2026-10-29"
+  },
+  "cost_per_attempt_usd": null,
+  "tokens_per_attempt": null
+ },
+ {
+  "id": "gdp-pdf/claude-fable-5-1/max/main/surge",
+  "model": "claude-fable-5-1",
+  "model_name": "Claude Fable 5.1",
+  "reasoning_level": {
+   "name": "max",
+   "position": 5,
+   "of": 5,
+   "as_shown": "Adaptive/Max"
+  },
+  "benchmark": "gdp-pdf",
+  "score": 27.6,
+  "score_unit": "%",
+  "kind": "main",
+  "test_conditions": {
+   "documents": 100,
+   "runner": "Surge AI",
+   "metric": "strict pass rate: every rubric item right (per the GDP.pdf paper; the live board just says \"Score\")"
+  },
+  "reference_conditions_met": true,
+  "label": "Independent",
+  "source_name": "Surge AI: GDP.pdf leaderboard",
+  "source_url": "https://surgehq.ai/benchmarks/gdp-pdf",
+  "source_date": null,
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "checked",
+   "how": "Read on the original page on 2026-10-29"
+  },
+  "cost_per_attempt_usd": null,
+  "tokens_per_attempt": null
+ },
+ {
+  "id": "gdp-pdf/gemini-3.8-flash/high/main/surge",
+  "model": "gemini-3.8-flash",
+  "model_name": "Gemini 3.8 Flash",
+  "reasoning_level": {
+   "name": "high",
+   "position": 3,
+   "of": 3,
+   "as_shown": "High reasoning"
+  },
+  "benchmark": "gdp-pdf",
+  "score": 23.2,
+  "score_unit": "%",
+  "kind": "main",
+  "test_conditions": {
+   "documents": 100,
+   "runner": "Surge AI",
+   "metric": "strict pass rate: every rubric item right (per the GDP.pdf paper; the live board just says \"Score\")"
+  },
+  "reference_conditions_met": true,
+  "label": "Independent",
+  "source_name": "Surge AI: GDP.pdf leaderboard",
+  "source_url": "https://surgehq.ai/benchmarks/gdp-pdf",
+  "source_date": null,
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "checked",
+   "how": "Read on the original page on 2026-10-29"
+  },
+  "cost_per_attempt_usd": null,
+  "tokens_per_attempt": null
+ },
+ {
+  "id": "gdp-pdf/gpt-6-luna/max/main/surge",
+  "model": "gpt-6-luna",
+  "model_name": "GPT-6 Luna",
+  "reasoning_level": {
+   "name": "max",
+   "position": 6,
+   "of": 6,
+   "as_shown": "Max reasoning"
+  },
+  "benchmark": "gdp-pdf",
+  "score": 23.0,
+  "score_unit": "%",
+  "kind": "main",
+  "test_conditions": {
+   "documents": 100,
+   "runner": "Surge AI",
+   "metric": "strict pass rate: every rubric item right (per the GDP.pdf paper; the live board just says \"Score\")"
+  },
+  "reference_conditions_met": true,
+  "label": "Independent",
+  "source_name": "Surge AI: GDP.pdf leaderboard",
+  "source_url": "https://surgehq.ai/benchmarks/gdp-pdf",
+  "source_date": null,
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "checked",
+   "how": "Read on the original page on 2026-10-29"
+  },
+  "cost_per_attempt_usd": null,
+  "tokens_per_attempt": null
+ },
+ {
+  "id": "gdp-pdf/grok-4.7/xhigh/main/surge",
+  "model": "grok-4.7",
+  "model_name": "Grok 4.7",
+  "reasoning_level": {
+   "name": "xhigh",
+   "position": 4,
+   "of": 4,
+   "as_shown": "xHigh reasoning"
+  },
+  "benchmark": "gdp-pdf",
+  "score": 22.8,
+  "score_unit": "%",
+  "kind": "main",
+  "test_conditions": {
+   "documents": 100,
+   "runner": "Surge AI",
+   "metric": "strict pass rate: every rubric item right (per the GDP.pdf paper; the live board just says \"Score\")"
+  },
+  "reference_conditions_met": true,
+  "label": "Independent",
+  "source_name": "Surge AI: GDP.pdf leaderboard",
+  "source_url": "https://surgehq.ai/benchmarks/gdp-pdf",
+  "source_date": null,
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "checked",
+   "how": "Read on the original page on 2026-10-29"
+  },
+  "cost_per_attempt_usd": null,
+  "tokens_per_attempt": null
+ },
+ {
+  "id": "gdp-pdf/deepseek-v4.1-flash/max/main/surge",
+  "model": "deepseek-v4.1-flash",
+  "model_name": "DeepSeek V4.1 Flash",
+  "reasoning_level": {
+   "name": "max",
+   "position": 3,
+   "of": 3,
+   "as_shown": "Max reasoning"
+  },
+  "benchmark": "gdp-pdf",
+  "score": 19.8,
+  "score_unit": "%",
+  "kind": "main",
+  "test_conditions": {
+   "documents": 100,
+   "runner": "Surge AI",
+   "metric": "strict pass rate: every rubric item right (per the GDP.pdf paper; the live board just says \"Score\")"
+  },
+  "reference_conditions_met": true,
+  "label": "Independent",
+  "source_name": "Surge AI: GDP.pdf leaderboard",
+  "source_url": "https://surgehq.ai/benchmarks/gdp-pdf",
+  "source_date": null,
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "checked",
+   "how": "Read on the original page on 2026-10-29"
+  },
+  "cost_per_attempt_usd": null,
+  "tokens_per_attempt": null,
+  "notes": "Surge does not say which DeepSeek snapshot it ran."
+ },
+ {
+  "id": "gdp-pdf/glm-5.3-flash/max/main/surge",
+  "model": "glm-5.3-flash",
+  "model_name": "GLM-5.3-Flash",
+  "reasoning_level": {
+   "name": "max",
+   "position": 3,
+   "of": 3,
+   "as_shown": "Max reasoning"
+  },
+  "benchmark": "gdp-pdf",
+  "score": 14.0,
+  "score_unit": "%",
+  "kind": "main",
+  "test_conditions": {
+   "documents": 100,
+   "runner": "Surge AI",
+   "metric": "strict pass rate: every rubric item right (per the GDP.pdf paper; the live board just says \"Score\")"
+  },
+  "reference_conditions_met": true,
+  "label": "Independent",
+  "source_name": "Surge AI: GDP.pdf leaderboard",
+  "source_url": "https://surgehq.ai/benchmarks/gdp-pdf",
+  "source_date": null,
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "checked",
+   "how": "Read on the original page on 2026-10-29"
+  },
+  "cost_per_attempt_usd": null,
+  "tokens_per_attempt": null
+ },
+ {
+  "id": "gdp-pdf/gemini-3.5-flash-lite/high/main/surge",
+  "model": "gemini-3.5-flash-lite",
+  "model_name": "Gemini 3.5 Flash-Lite",
+  "reasoning_level": {
+   "name": "high",
+   "position": 4,
+   "of": 4,
+   "as_shown": "High reasoning"
+  },
+  "benchmark": "gdp-pdf",
+  "score": 10.0,
+  "score_unit": "%",
+  "kind": "main",
+  "test_conditions": {
+   "documents": 100,
+   "runner": "Surge AI",
+   "metric": "strict pass rate: every rubric item right (per the GDP.pdf paper; the live board just says \"Score\")"
+  },
+  "reference_conditions_met": true,
+  "label": "Independent",
+  "source_name": "Surge AI: GDP.pdf leaderboard",
+  "source_url": "https://surgehq.ai/benchmarks/gdp-pdf",
+  "source_date": null,
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "checked",
+   "how": "Read on the original page on 2026-10-29"
+  },
+  "cost_per_attempt_usd": null,
+  "tokens_per_attempt": null
+ },
+ {
+  "id": "gdp-pdf/gemini-3.8-flash/high/non_reference/g_flash",
+  "model": "gemini-3.8-flash",
+  "model_name": "Gemini 3.8 Flash",
+  "reasoning_level": {
+   "name": "high",
+   "position": 3,
+   "of": 3,
+   "as_shown": "not stated"
+  },
+  "benchmark": "gdp-pdf",
+  "score": 35.0,
+  "score_unit": "%",
+  "kind": "non_reference",
+  "test_conditions": {
+   "runner": "Google, self-computed",
+   "metric": "all pass rate"
+  },
+  "reference_conditions_met": false,
+  "label": "Lab-reported",
+  "source_name": "Google DeepMind: Gemini 3.8 Flash model card",
+  "source_url": "https://deepmind.google/models/model-cards/gemini-3-8-flash/",
+  "source_date": "2026-09",
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "checked",
+   "how": "Read on the original page on 2026-10-29"
+  },
+  "cost_per_attempt_usd": null,
+  "tokens_per_attempt": null,
+  "notes": "Google's own run gives 35.0% vs Surge's 23.2%; shown only under details."
+ },
+ {
+  "id": "tau3-banking/gemini-4-argon/high/main/mercor",
+  "model": "gemini-4-argon",
+  "model_name": "Gemini 4 Argon",
+  "reasoning_level": {
+   "name": "high",
+   "position": 3,
+   "of": 3,
+   "as_shown": "High"
+  },
+  "benchmark": "tau3-banking",
+  "score": 58.1,
+  "score_unit": "%",
+  "kind": "main",
+  "test_conditions": {
+   "benchmark": "τ³-Banking (τ-Knowledge)",
+   "runner": "Sierra partner board hosted by Mercor",
+   "metric": "pass@1 (page label)",
+   "version": "not stated on the board",
+   "margin_pct": 8.9
+  },
+  "reference_conditions_met": true,
+  "label": "Independent",
+  "source_name": "Mercor / Sierra: τ³-Banking partner leaderboard",
+  "source_url": "https://www.mercor.com/apex/partner-benchmarks/tau-3-banking-leaderboard/",
+  "source_date": null,
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "checked",
+   "how": "Read on the original page on 2026-10-29"
+  },
+  "cost_per_attempt_usd": null,
+  "tokens_per_attempt": null,
+  "notes": "Version not stated; spec asks for v1.0.1 or later. Board shows margins of about ±9 points, so these five are statistically close."
+ },
+ {
+  "id": "tau3-banking/claude-opus-5-5/max/main/mercor",
+  "model": "claude-opus-5-5",
+  "model_name": "Claude Opus 5.5",
+  "reasoning_level": {
+   "name": "max",
+   "position": 5,
+   "of": 5,
+   "as_shown": "Max"
+  },
+  "benchmark": "tau3-banking",
+  "score": 55.0,
+  "score_unit": "%",
+  "kind": "main",
+  "test_conditions": {
+   "benchmark": "τ³-Banking (τ-Knowledge)",
+   "runner": "Sierra partner board hosted by Mercor",
+   "metric": "pass@1 (page label)",
+   "version": "not stated on the board",
+   "margin_pct": 8.2
+  },
+  "reference_conditions_met": true,
+  "label": "Independent",
+  "source_name": "Mercor / Sierra: τ³-Banking partner leaderboard",
+  "source_url": "https://www.mercor.com/apex/partner-benchmarks/tau-3-banking-leaderboard/",
+  "source_date": null,
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "checked",
+   "how": "Read on the original page on 2026-10-29"
+  },
+  "cost_per_attempt_usd": null,
+  "tokens_per_attempt": null,
+  "notes": "Version not stated; spec asks for v1.0.1 or later. Board shows margins of about ±9 points, so these five are statistically close."
+ },
+ {
+  "id": "tau3-banking/claude-fable-5-1/max/main/mercor",
+  "model": "claude-fable-5-1",
+  "model_name": "Claude Fable 5.1",
+  "reasoning_level": {
+   "name": "max",
+   "position": 5,
+   "of": 5,
+   "as_shown": "Max"
+  },
+  "benchmark": "tau3-banking",
+  "score": 54.0,
+  "score_unit": "%",
+  "kind": "main",
+  "test_conditions": {
+   "benchmark": "τ³-Banking (τ-Knowledge)",
+   "runner": "Sierra partner board hosted by Mercor",
+   "metric": "pass@1 (page label)",
+   "version": "not stated on the board",
+   "margin_pct": 8.9
+  },
+  "reference_conditions_met": true,
+  "label": "Independent",
+  "source_name": "Mercor / Sierra: τ³-Banking partner leaderboard",
+  "source_url": "https://www.mercor.com/apex/partner-benchmarks/tau-3-banking-leaderboard/",
+  "source_date": null,
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "checked",
+   "how": "Read on the original page on 2026-10-29"
+  },
+  "cost_per_attempt_usd": null,
+  "tokens_per_attempt": null,
+  "notes": "Version not stated; spec asks for v1.0.1 or later. Board shows margins of about ±9 points, so these five are statistically close."
+ },
+ {
+  "id": "tau3-banking/claude-sonnet-5-5/max/main/mercor",
+  "model": "claude-sonnet-5-5",
+  "model_name": "Claude Sonnet 5.5",
+  "reasoning_level": {
+   "name": "max",
+   "position": 5,
+   "of": 5,
+   "as_shown": "Max"
+  },
+  "benchmark": "tau3-banking",
+  "score": 54.0,
+  "score_unit": "%",
+  "kind": "main",
+  "test_conditions": {
+   "benchmark": "τ³-Banking (τ-Knowledge)",
+   "runner": "Sierra partner board hosted by Mercor",
+   "metric": "pass@1 (page label)",
+   "version": "not stated on the board",
+   "margin_pct": 8.9
+  },
+  "reference_conditions_met": true,
+  "label": "Independent",
+  "source_name": "Mercor / Sierra: τ³-Banking partner leaderboard",
+  "source_url": "https://www.mercor.com/apex/partner-benchmarks/tau-3-banking-leaderboard/",
+  "source_date": null,
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "checked",
+   "how": "Read on the original page on 2026-10-29"
+  },
+  "cost_per_attempt_usd": null,
+  "tokens_per_attempt": null,
+  "notes": "Version not stated; spec asks for v1.0.1 or later. Board shows margins of about ±9 points, so these five are statistically close."
+ },
+ {
+  "id": "tau3-banking/gemini-3.8-flash/high/main/mercor",
+  "model": "gemini-3.8-flash",
+  "model_name": "Gemini 3.8 Flash",
+  "reasoning_level": {
+   "name": "high",
+   "position": 3,
+   "of": 3,
+   "as_shown": "High"
+  },
+  "benchmark": "tau3-banking",
+  "score": 48.8,
+  "score_unit": "%",
+  "kind": "main",
+  "test_conditions": {
+   "benchmark": "τ³-Banking (τ-Knowledge)",
+   "runner": "Sierra partner board hosted by Mercor",
+   "metric": "pass@1 (page label)",
+   "version": "not stated on the board",
+   "margin_pct": 8.8
+  },
+  "reference_conditions_met": true,
+  "label": "Independent",
+  "source_name": "Mercor / Sierra: τ³-Banking partner leaderboard",
+  "source_url": "https://www.mercor.com/apex/partner-benchmarks/tau-3-banking-leaderboard/",
+  "source_date": null,
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "seen earlier",
+   "how": "Seen on the original page on 2026-10-17; no longer visible on 2026-10-29 because the board shows only its top 5"
+  },
+  "cost_per_attempt_usd": null,
+  "tokens_per_attempt": null,
+  "notes": "Version not stated; spec asks for v1.0.1 or later. Board shows margins of about ±9 points, so these five are statistically close."
+ },
+ {
+  "id": "osworld-2/claude-haiku-5-5/low/main/a_haiku",
+  "model": "claude-haiku-5-5",
+  "model_name": "Claude Haiku 5.5",
+  "reasoning_level": {
+   "name": "low",
+   "position": 1,
+   "of": 5,
+   "as_shown": "low"
+  },
+  "benchmark": "osworld-2",
+  "score": 42.0,
+  "score_unit": "%",
+  "kind": "main",
+  "test_conditions": {
+   "release": "v2.1 (Anthropic calls it \"OSWorld 2.1\")",
+   "subset": "offline, 82 of 108 tasks",
+   "scoring": "partial credit",
+   "step_limit": 500,
+   "runner": "Anthropic"
+  },
+  "reference_conditions_met": true,
+  "label": "Lab-reported",
+  "source_name": "Anthropic: Claude Haiku 5.5",
+  "source_url": "https://www.anthropic.com/claude-haiku-5-5",
+  "source_date": "2026-10-07",
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "checked",
+   "how": "Read from the chart's own data embedded in the original page on 2026-10-29 (exact values, not read by eye)"
+  },
+  "cost_per_attempt_usd": 0.0695,
+  "tokens_per_attempt": null
+ },
+ {
+  "id": "osworld-2/claude-haiku-5-5/medium/main/a_haiku",
+  "model": "claude-haiku-5-5",
+  "model_name": "Claude Haiku 5.5",
+  "reasoning_level": {
+   "name": "medium",
+   "position": 2,
+   "of": 5,
+   "as_shown": "medium"
+  },
+  "benchmark": "osworld-2",
+  "score": 53.3,
+  "score_unit": "%",
+  "kind": "main",
+  "test_conditions": {
+   "release": "v2.1 (Anthropic calls it \"OSWorld 2.1\")",
+   "subset": "offline, 82 of 108 tasks",
+   "scoring": "partial credit",
+   "step_limit": 500,
+   "runner": "Anthropic"
+  },
+  "reference_conditions_met": true,
+  "label": "Lab-reported",
+  "source_name": "Anthropic: Claude Haiku 5.5",
+  "source_url": "https://www.anthropic.com/claude-haiku-5-5",
+  "source_date": "2026-10-07",
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "checked",
+   "how": "Read from the chart's own data embedded in the original page on 2026-10-29 (exact values, not read by eye)"
+  },
+  "cost_per_attempt_usd": 0.1257,
+  "tokens_per_attempt": null
+ },
+ {
+  "id": "osworld-2/claude-haiku-5-5/high/main/a_haiku",
+  "model": "claude-haiku-5-5",
+  "model_name": "Claude Haiku 5.5",
+  "reasoning_level": {
+   "name": "high",
+   "position": 3,
+   "of": 5,
+   "as_shown": "high"
+  },
+  "benchmark": "osworld-2",
+  "score": 61.3,
+  "score_unit": "%",
+  "kind": "main",
+  "test_conditions": {
+   "release": "v2.1 (Anthropic calls it \"OSWorld 2.1\")",
+   "subset": "offline, 82 of 108 tasks",
+   "scoring": "partial credit",
+   "step_limit": 500,
+   "runner": "Anthropic"
+  },
+  "reference_conditions_met": true,
+  "label": "Lab-reported",
+  "source_name": "Anthropic: Claude Haiku 5.5",
+  "source_url": "https://www.anthropic.com/claude-haiku-5-5",
+  "source_date": "2026-10-07",
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "checked",
+   "how": "Read from the chart's own data embedded in the original page on 2026-10-29 (exact values, not read by eye)"
+  },
+  "cost_per_attempt_usd": 0.1827,
+  "tokens_per_attempt": null
+ },
+ {
+  "id": "osworld-2/claude-haiku-5-5/xhigh/main/a_haiku",
+  "model": "claude-haiku-5-5",
+  "model_name": "Claude Haiku 5.5",
+  "reasoning_level": {
+   "name": "xhigh",
+   "position": 4,
+   "of": 5,
+   "as_shown": "xhigh"
+  },
+  "benchmark": "osworld-2",
+  "score": 67.6,
+  "score_unit": "%",
+  "kind": "main",
+  "test_conditions": {
+   "release": "v2.1 (Anthropic calls it \"OSWorld 2.1\")",
+   "subset": "offline, 82 of 108 tasks",
+   "scoring": "partial credit",
+   "step_limit": 500,
+   "runner": "Anthropic"
+  },
+  "reference_conditions_met": true,
+  "label": "Lab-reported",
+  "source_name": "Anthropic: Claude Haiku 5.5",
+  "source_url": "https://www.anthropic.com/claude-haiku-5-5",
+  "source_date": "2026-10-07",
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "checked",
+   "how": "Read from the chart's own data embedded in the original page on 2026-10-29 (exact values, not read by eye)"
+  },
+  "cost_per_attempt_usd": 0.2792,
+  "tokens_per_attempt": null
+ },
+ {
+  "id": "osworld-2/claude-haiku-5-5/max/main/a_haiku",
+  "model": "claude-haiku-5-5",
+  "model_name": "Claude Haiku 5.5",
+  "reasoning_level": {
+   "name": "max",
+   "position": 5,
+   "of": 5,
+   "as_shown": "max"
+  },
+  "benchmark": "osworld-2",
+  "score": 72.4,
+  "score_unit": "%",
+  "kind": "main",
+  "test_conditions": {
+   "release": "v2.1 (Anthropic calls it \"OSWorld 2.1\")",
+   "subset": "offline, 82 of 108 tasks",
+   "scoring": "partial credit",
+   "step_limit": 500,
+   "runner": "Anthropic"
+  },
+  "reference_conditions_met": true,
+  "label": "Lab-reported",
+  "source_name": "Anthropic: Claude Haiku 5.5",
+  "source_url": "https://www.anthropic.com/claude-haiku-5-5",
+  "source_date": "2026-10-07",
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "checked",
+   "how": "Read from the chart's own data embedded in the original page on 2026-10-29 (exact values, not read by eye)"
+  },
+  "cost_per_attempt_usd": 0.6111,
+  "tokens_per_attempt": null
+ },
+ {
+  "id": "osworld-2/claude-sonnet-5-5/low/main/a_haiku",
+  "model": "claude-sonnet-5-5",
+  "model_name": "Claude Sonnet 5.5",
+  "reasoning_level": {
+   "name": "low",
+   "position": 1,
+   "of": 5,
+   "as_shown": "low"
+  },
+  "benchmark": "osworld-2",
+  "score": 57.9,
+  "score_unit": "%",
+  "kind": "main",
+  "test_conditions": {
+   "release": "v2.1 (Anthropic calls it \"OSWorld 2.1\")",
+   "subset": "offline, 82 of 108 tasks",
+   "scoring": "partial credit",
+   "step_limit": 500,
+   "runner": "Anthropic"
+  },
+  "reference_conditions_met": true,
+  "label": "Lab-reported",
+  "source_name": "Anthropic: Claude Haiku 5.5",
+  "source_url": "https://www.anthropic.com/claude-haiku-5-5",
+  "source_date": "2026-10-07",
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "checked",
+   "how": "Read from the chart's own data embedded in the original page on 2026-10-29 (exact values, not read by eye)"
+  },
+  "cost_per_attempt_usd": 0.6811,
+  "tokens_per_attempt": null
+ },
+ {
+  "id": "osworld-2/claude-sonnet-5-5/medium/main/a_haiku",
+  "model": "claude-sonnet-5-5",
+  "model_name": "Claude Sonnet 5.5",
+  "reasoning_level": {
+   "name": "medium",
+   "position": 2,
+   "of": 5,
+   "as_shown": "medium"
+  },
+  "benchmark": "osworld-2",
+  "score": 66.0,
+  "score_unit": "%",
+  "kind": "main",
+  "test_conditions": {
+   "release": "v2.1 (Anthropic calls it \"OSWorld 2.1\")",
+   "subset": "offline, 82 of 108 tasks",
+   "scoring": "partial credit",
+   "step_limit": 500,
+   "runner": "Anthropic"
+  },
+  "reference_conditions_met": true,
+  "label": "Lab-reported",
+  "source_name": "Anthropic: Claude Haiku 5.5",
+  "source_url": "https://www.anthropic.com/claude-haiku-5-5",
+  "source_date": "2026-10-07",
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "checked",
+   "how": "Read from the chart's own data embedded in the original page on 2026-10-29 (exact values, not read by eye)"
+  },
+  "cost_per_attempt_usd": 0.9327,
+  "tokens_per_attempt": null
+ },
+ {
+  "id": "osworld-2/claude-sonnet-5-5/high/main/a_haiku",
+  "model": "claude-sonnet-5-5",
+  "model_name": "Claude Sonnet 5.5",
+  "reasoning_level": {
+   "name": "high",
+   "position": 3,
+   "of": 5,
+   "as_shown": "high"
+  },
+  "benchmark": "osworld-2",
+  "score": 73.2,
+  "score_unit": "%",
+  "kind": "main",
+  "test_conditions": {
+   "release": "v2.1 (Anthropic calls it \"OSWorld 2.1\")",
+   "subset": "offline, 82 of 108 tasks",
+   "scoring": "partial credit",
+   "step_limit": 500,
+   "runner": "Anthropic"
+  },
+  "reference_conditions_met": true,
+  "label": "Lab-reported",
+  "source_name": "Anthropic: Claude Haiku 5.5",
+  "source_url": "https://www.anthropic.com/claude-haiku-5-5",
+  "source_date": "2026-10-07",
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "checked",
+   "how": "Read from the chart's own data embedded in the original page on 2026-10-29 (exact values, not read by eye)"
+  },
+  "cost_per_attempt_usd": 1.3842,
+  "tokens_per_attempt": null
+ },
+ {
+  "id": "osworld-2/claude-sonnet-5-5/xhigh/main/a_haiku",
+  "model": "claude-sonnet-5-5",
+  "model_name": "Claude Sonnet 5.5",
+  "reasoning_level": {
+   "name": "xhigh",
+   "position": 4,
+   "of": 5,
+   "as_shown": "xhigh"
+  },
+  "benchmark": "osworld-2",
+  "score": 81.1,
+  "score_unit": "%",
+  "kind": "main",
+  "test_conditions": {
+   "release": "v2.1 (Anthropic calls it \"OSWorld 2.1\")",
+   "subset": "offline, 82 of 108 tasks",
+   "scoring": "partial credit",
+   "step_limit": 500,
+   "runner": "Anthropic"
+  },
+  "reference_conditions_met": true,
+  "label": "Lab-reported",
+  "source_name": "Anthropic: Claude Haiku 5.5",
+  "source_url": "https://www.anthropic.com/claude-haiku-5-5",
+  "source_date": "2026-10-07",
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "checked",
+   "how": "Read from the chart's own data embedded in the original page on 2026-10-29 (exact values, not read by eye)"
+  },
+  "cost_per_attempt_usd": 2.223,
+  "tokens_per_attempt": null
+ },
+ {
+  "id": "osworld-2/claude-sonnet-5-5/max/main/a_haiku",
+  "model": "claude-sonnet-5-5",
+  "model_name": "Claude Sonnet 5.5",
+  "reasoning_level": {
+   "name": "max",
+   "position": 5,
+   "of": 5,
+   "as_shown": "max"
+  },
+  "benchmark": "osworld-2",
+  "score": 83.9,
+  "score_unit": "%",
+  "kind": "main",
+  "test_conditions": {
+   "release": "v2.1 (Anthropic calls it \"OSWorld 2.1\")",
+   "subset": "offline, 82 of 108 tasks",
+   "scoring": "partial credit",
+   "step_limit": 500,
+   "runner": "Anthropic"
+  },
+  "reference_conditions_met": true,
+  "label": "Lab-reported",
+  "source_name": "Anthropic: Claude Haiku 5.5",
+  "source_url": "https://www.anthropic.com/claude-haiku-5-5",
+  "source_date": "2026-10-07",
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "checked",
+   "how": "Read from the chart's own data embedded in the original page on 2026-10-29 (exact values, not read by eye)"
+  },
+  "cost_per_attempt_usd": 5.7328,
+  "tokens_per_attempt": null
+ },
+ {
+  "id": "osworld-2/gpt-6-luna/low/competitor_run/a_haiku",
+  "model": "gpt-6-luna",
+  "model_name": "GPT-6 Luna",
+  "reasoning_level": {
+   "name": "low",
+   "position": 2,
+   "of": 6,
+   "as_shown": "low"
+  },
+  "benchmark": "osworld-2",
+  "score": 19.2,
+  "score_unit": "%",
+  "kind": "competitor_run",
+  "test_conditions": {
+   "release": "v2.1 (Anthropic calls it \"OSWorld 2.1\")",
+   "subset": "offline, 82 of 108 tasks",
+   "scoring": "partial credit",
+   "step_limit": 500,
+   "runner": "Anthropic"
+  },
+  "reference_conditions_met": false,
+  "label": "Lab-reported",
+  "source_name": "Anthropic: Claude Haiku 5.5",
+  "source_url": "https://www.anthropic.com/claude-haiku-5-5",
+  "source_date": "2026-10-07",
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "checked",
+   "how": "Read from the chart's own data embedded in the original page on 2026-10-29 (exact values, not read by eye)"
+  },
+  "cost_per_attempt_usd": 0.038,
+  "tokens_per_attempt": null,
+  "notes": "Anthropic's run of OpenAI's model. OpenAI's own figures for Luna are used as the main score; this sits under details."
+ },
+ {
+  "id": "osworld-2/gpt-6-luna/medium/competitor_run/a_haiku",
+  "model": "gpt-6-luna",
+  "model_name": "GPT-6 Luna",
+  "reasoning_level": {
+   "name": "medium",
+   "position": 3,
+   "of": 6,
+   "as_shown": "medium"
+  },
+  "benchmark": "osworld-2",
+  "score": 37.5,
+  "score_unit": "%",
+  "kind": "competitor_run",
+  "test_conditions": {
+   "release": "v2.1 (Anthropic calls it \"OSWorld 2.1\")",
+   "subset": "offline, 82 of 108 tasks",
+   "scoring": "partial credit",
+   "step_limit": 500,
+   "runner": "Anthropic"
+  },
+  "reference_conditions_met": false,
+  "label": "Lab-reported",
+  "source_name": "Anthropic: Claude Haiku 5.5",
+  "source_url": "https://www.anthropic.com/claude-haiku-5-5",
+  "source_date": "2026-10-07",
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "checked",
+   "how": "Read from the chart's own data embedded in the original page on 2026-10-29 (exact values, not read by eye)"
+  },
+  "cost_per_attempt_usd": 0.1261,
+  "tokens_per_attempt": null,
+  "notes": "Anthropic's run of OpenAI's model. OpenAI's own figures for Luna are used as the main score; this sits under details."
+ },
+ {
+  "id": "osworld-2/gpt-6-luna/high/competitor_run/a_haiku",
+  "model": "gpt-6-luna",
+  "model_name": "GPT-6 Luna",
+  "reasoning_level": {
+   "name": "high",
+   "position": 4,
+   "of": 6,
+   "as_shown": "high"
+  },
+  "benchmark": "osworld-2",
+  "score": 42.3,
+  "score_unit": "%",
+  "kind": "competitor_run",
+  "test_conditions": {
+   "release": "v2.1 (Anthropic calls it \"OSWorld 2.1\")",
+   "subset": "offline, 82 of 108 tasks",
+   "scoring": "partial credit",
+   "step_limit": 500,
+   "runner": "Anthropic"
+  },
+  "reference_conditions_met": false,
+  "label": "Lab-reported",
+  "source_name": "Anthropic: Claude Haiku 5.5",
+  "source_url": "https://www.anthropic.com/claude-haiku-5-5",
+  "source_date": "2026-10-07",
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "checked",
+   "how": "Read from the chart's own data embedded in the original page on 2026-10-29 (exact values, not read by eye)"
+  },
+  "cost_per_attempt_usd": 0.1435,
+  "tokens_per_attempt": null,
+  "notes": "Anthropic's run of OpenAI's model. OpenAI's own figures for Luna are used as the main score; this sits under details."
+ },
+ {
+  "id": "osworld-2/gpt-6-luna/xhigh/competitor_run/a_haiku",
+  "model": "gpt-6-luna",
+  "model_name": "GPT-6 Luna",
+  "reasoning_level": {
+   "name": "xhigh",
+   "position": 5,
+   "of": 6,
+   "as_shown": "xhigh"
+  },
+  "benchmark": "osworld-2",
+  "score": 44.8,
+  "score_unit": "%",
+  "kind": "competitor_run",
+  "test_conditions": {
+   "release": "v2.1 (Anthropic calls it \"OSWorld 2.1\")",
+   "subset": "offline, 82 of 108 tasks",
+   "scoring": "partial credit",
+   "step_limit": 500,
+   "runner": "Anthropic"
+  },
+  "reference_conditions_met": false,
+  "label": "Lab-reported",
+  "source_name": "Anthropic: Claude Haiku 5.5",
+  "source_url": "https://www.anthropic.com/claude-haiku-5-5",
+  "source_date": "2026-10-07",
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "checked",
+   "how": "Read from the chart's own data embedded in the original page on 2026-10-29 (exact values, not read by eye)"
+  },
+  "cost_per_attempt_usd": 0.1672,
+  "tokens_per_attempt": null,
+  "notes": "Anthropic's run of OpenAI's model. OpenAI's own figures for Luna are used as the main score; this sits under details."
+ },
+ {
+  "id": "osworld-2/gpt-6-luna/max/competitor_run/a_haiku",
+  "model": "gpt-6-luna",
+  "model_name": "GPT-6 Luna",
+  "reasoning_level": {
+   "name": "max",
+   "position": 6,
+   "of": 6,
+   "as_shown": "max"
+  },
+  "benchmark": "osworld-2",
+  "score": 48.9,
+  "score_unit": "%",
+  "kind": "competitor_run",
+  "test_conditions": {
+   "release": "v2.1 (Anthropic calls it \"OSWorld 2.1\")",
+   "subset": "offline, 82 of 108 tasks",
+   "scoring": "partial credit",
+   "step_limit": 500,
+   "runner": "Anthropic"
+  },
+  "reference_conditions_met": false,
+  "label": "Lab-reported",
+  "source_name": "Anthropic: Claude Haiku 5.5",
+  "source_url": "https://www.anthropic.com/claude-haiku-5-5",
+  "source_date": "2026-10-07",
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "checked",
+   "how": "Read from the chart's own data embedded in the original page on 2026-10-29 (exact values, not read by eye)"
+  },
+  "cost_per_attempt_usd": 0.205,
+  "tokens_per_attempt": null,
+  "notes": "Anthropic's run of OpenAI's model. OpenAI's own figures for Luna are used as the main score; this sits under details."
+ },
+ {
+  "id": "osworld-2/claude-haiku-5-5/max/full_pass/a_haiku_card",
+  "model": "claude-haiku-5-5",
+  "model_name": "Claude Haiku 5.5",
+  "reasoning_level": {
+   "name": "max",
+   "position": 5,
+   "of": 5,
+   "as_shown": "max"
+  },
+  "benchmark": "osworld-2",
+  "score": 37.1,
+  "score_unit": "%",
+  "kind": "full_pass",
+  "test_conditions": {
+   "release": "v2.1 (Anthropic calls it \"OSWorld 2.1\")",
+   "subset": "offline, 82 of 108 tasks",
+   "scoring": "full pass (binary)",
+   "step_limit": 500,
+   "runner": "Anthropic"
+  },
+  "reference_conditions_met": true,
+  "label": "Lab-reported",
+  "source_name": "Anthropic: Claude Haiku 5.5 system card, sec. 8.9.3",
+  "source_url": "https://www-cdn.anthropic.com/e1080d6bf5ae2018ea3c2f414064be03232f5be5/Claude%20Haiku%205.5%20System%20Card.pdf",
+  "source_date": "2026-10-07",
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "unverified",
+   "how": "Quoted by secondary write-ups from the system card; the card's PDF section could not be read from here. Needs a browser check"
+  },
+  "cost_per_attempt_usd": null,
+  "tokens_per_attempt": null,
+  "secondary_source_urls": [
+   "https://llm-stats.com/blog/research/claude-haiku-5-5-launch"
+  ]
+ },
+ {
+  "id": "osworld-2/claude-sonnet-5-5/max/full_pass/a_haiku_card",
+  "model": "claude-sonnet-5-5",
+  "model_name": "Claude Sonnet 5.5",
+  "reasoning_level": {
+   "name": "max",
+   "position": 5,
+   "of": 5,
+   "as_shown": "max"
+  },
+  "benchmark": "osworld-2",
+  "score": 48.8,
+  "score_unit": "%",
+  "kind": "full_pass",
+  "test_conditions": {
+   "release": "v2.1 (Anthropic calls it \"OSWorld 2.1\")",
+   "subset": "offline, 82 of 108 tasks",
+   "scoring": "full pass (binary)",
+   "step_limit": 500,
+   "runner": "Anthropic"
+  },
+  "reference_conditions_met": true,
+  "label": "Lab-reported",
+  "source_name": "Anthropic: Claude Haiku 5.5 system card, sec. 8.9.3",
+  "source_url": "https://www-cdn.anthropic.com/e1080d6bf5ae2018ea3c2f414064be03232f5be5/Claude%20Haiku%205.5%20System%20Card.pdf",
+  "source_date": "2026-10-07",
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "unverified",
+   "how": "Quoted by secondary write-ups from the system card; the card's PDF section could not be read from here. Needs a browser check"
+  },
+  "cost_per_attempt_usd": null,
+  "tokens_per_attempt": null,
+  "secondary_source_urls": [
+   "https://llm-stats.com/blog/research/claude-haiku-5-5-launch"
+  ]
+ },
+ {
+  "id": "osworld-2/gpt-6-luna/low/main/o_luna",
+  "model": "gpt-6-luna",
+  "model_name": "GPT-6 Luna",
+  "reasoning_level": {
+   "name": "low",
+   "position": 2,
+   "of": 6,
+   "as_shown": "low"
+  },
+  "benchmark": "osworld-2",
+  "score": 8.3,
+  "score_unit": "%",
+  "kind": "main",
+  "test_conditions": {
+   "release": "v2026.08.08",
+   "subset": "offline (task count not stated)",
+   "scoring": "partial reward",
+   "runner": "OpenAI"
+  },
+  "reference_conditions_met": true,
+  "label": "Lab-reported",
+  "source_name": "OpenAI: Introducing GPT-6 Sol and Luna",
+  "source_url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+  "source_date": "2026-09-22",
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "unverified",
+   "how": "Chart value taken from secondary write-ups; the original page could not be opened from here (openai.com is blocked for my tools). Needs a browser check"
+  },
+  "cost_per_attempt_usd": 0.03,
+  "tokens_per_attempt": null,
+  "secondary_source_urls": [
+   "https://aicatchup.com/news/openai-gpt-6-sol-luna",
+   "https://aiwiki.ai/wiki/gpt_6_sol"
+  ]
+ },
+ {
+  "id": "osworld-2/gpt-6-luna/medium/main/o_luna",
+  "model": "gpt-6-luna",
+  "model_name": "GPT-6 Luna",
+  "reasoning_level": {
+   "name": "medium",
+   "position": 3,
+   "of": 6,
+   "as_shown": "medium"
+  },
+  "benchmark": "osworld-2",
+  "score": 31.5,
+  "score_unit": "%",
+  "kind": "main",
+  "test_conditions": {
+   "release": "v2026.08.08",
+   "subset": "offline (task count not stated)",
+   "scoring": "partial reward",
+   "runner": "OpenAI"
+  },
+  "reference_conditions_met": true,
+  "label": "Lab-reported",
+  "source_name": "OpenAI: Introducing GPT-6 Sol and Luna",
+  "source_url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+  "source_date": "2026-09-22",
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "unverified",
+   "how": "Chart value taken from secondary write-ups; the original page could not be opened from here (openai.com is blocked for my tools). Needs a browser check"
+  },
+  "cost_per_attempt_usd": 0.062,
+  "tokens_per_attempt": null,
+  "secondary_source_urls": [
+   "https://aicatchup.com/news/openai-gpt-6-sol-luna",
+   "https://aiwiki.ai/wiki/gpt_6_sol"
+  ]
+ },
+ {
+  "id": "osworld-2/gpt-6-luna/high/main/o_luna",
+  "model": "gpt-6-luna",
+  "model_name": "GPT-6 Luna",
+  "reasoning_level": {
+   "name": "high",
+   "position": 4,
+   "of": 6,
+   "as_shown": "high"
+  },
+  "benchmark": "osworld-2",
+  "score": 41.4,
+  "score_unit": "%",
+  "kind": "main",
+  "test_conditions": {
+   "release": "v2026.08.08",
+   "subset": "offline (task count not stated)",
+   "scoring": "partial reward",
+   "runner": "OpenAI"
+  },
+  "reference_conditions_met": true,
+  "label": "Lab-reported",
+  "source_name": "OpenAI: Introducing GPT-6 Sol and Luna",
+  "source_url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+  "source_date": "2026-09-22",
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "unverified",
+   "how": "Chart value taken from secondary write-ups; the original page could not be opened from here (openai.com is blocked for my tools). Needs a browser check"
+  },
+  "cost_per_attempt_usd": 0.12,
+  "tokens_per_attempt": null,
+  "secondary_source_urls": [
+   "https://aicatchup.com/news/openai-gpt-6-sol-luna",
+   "https://aiwiki.ai/wiki/gpt_6_sol"
+  ]
+ },
+ {
+  "id": "osworld-2/gpt-6-luna/xhigh/main/o_luna",
+  "model": "gpt-6-luna",
+  "model_name": "GPT-6 Luna",
+  "reasoning_level": {
+   "name": "xhigh",
+   "position": 5,
+   "of": 6,
+   "as_shown": "xhigh"
+  },
+  "benchmark": "osworld-2",
+  "score": 46.7,
+  "score_unit": "%",
+  "kind": "main",
+  "test_conditions": {
+   "release": "v2026.08.08",
+   "subset": "offline (task count not stated)",
+   "scoring": "partial reward",
+   "runner": "OpenAI"
+  },
+  "reference_conditions_met": true,
+  "label": "Lab-reported",
+  "source_name": "OpenAI: Introducing GPT-6 Sol and Luna",
+  "source_url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+  "source_date": "2026-09-22",
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "unverified",
+   "how": "Chart value taken from secondary write-ups; the original page could not be opened from here (openai.com is blocked for my tools). Needs a browser check"
+  },
+  "cost_per_attempt_usd": 0.16,
+  "tokens_per_attempt": null,
+  "secondary_source_urls": [
+   "https://aicatchup.com/news/openai-gpt-6-sol-luna",
+   "https://aiwiki.ai/wiki/gpt_6_sol"
+  ]
+ },
+ {
+  "id": "osworld-2/gpt-6-luna/max/main/o_luna",
+  "model": "gpt-6-luna",
+  "model_name": "GPT-6 Luna",
+  "reasoning_level": {
+   "name": "max",
+   "position": 6,
+   "of": 6,
+   "as_shown": "max"
+  },
+  "benchmark": "osworld-2",
+  "score": 52.7,
+  "score_unit": "%",
+  "kind": "main",
+  "test_conditions": {
+   "release": "v2026.08.08",
+   "subset": "offline (task count not stated)",
+   "scoring": "partial reward",
+   "runner": "OpenAI"
+  },
+  "reference_conditions_met": true,
+  "label": "Lab-reported",
+  "source_name": "OpenAI: Introducing GPT-6 Sol and Luna",
+  "source_url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+  "source_date": "2026-09-22",
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "unverified",
+   "how": "Chart value taken from secondary write-ups; the original page could not be opened from here (openai.com is blocked for my tools). Needs a browser check"
+  },
+  "cost_per_attempt_usd": 0.27,
+  "tokens_per_attempt": null,
+  "secondary_source_urls": [
+   "https://aicatchup.com/news/openai-gpt-6-sol-luna",
+   "https://aiwiki.ai/wiki/gpt_6_sol"
+  ]
+ },
+ {
+  "id": "osworld-2/gpt-6.1-sol/max/main/o_sol61",
+  "model": "gpt-6.1-sol",
+  "model_name": "GPT-6.1 Sol",
+  "reasoning_level": {
+   "name": "max",
+   "position": 5,
+   "of": 5,
+   "as_shown": "max"
+  },
+  "benchmark": "osworld-2",
+  "score": 71.4,
+  "score_unit": "%",
+  "kind": "main",
+  "test_conditions": {
+   "release": "v2026.08.08",
+   "subset": "offline (task count not stated)",
+   "scoring": "partial reward",
+   "runner": "OpenAI"
+  },
+  "reference_conditions_met": true,
+  "label": "Lab-reported",
+  "source_name": "OpenAI: Introducing GPT-6.1 Sol",
+  "source_url": "https://openai.com/index/introducing-gpt-6-1-sol/",
+  "source_date": "2026-09-29",
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "unverified",
+   "how": "Chart value taken from secondary write-ups; the original page could not be opened from here (openai.com is blocked for my tools). Needs a browser check"
+  },
+  "cost_per_attempt_usd": 1.27,
+  "tokens_per_attempt": null,
+  "secondary_source_urls": [
+   "https://kingy.ai/blog/gpt-6-1-sol-specs-benchmarks-pricing-task-costs/"
+  ],
+  "notes": "One secondary source only, but it agrees with the page text: +7 points over GPT-6 Sol, 2.1 points behind Astra (73.5). Other levels not captured."
+ },
+ {
+  "id": "osworld-2/gpt-6-astra/max/main/o_astra",
+  "model": "gpt-6-astra",
+  "model_name": "GPT-6 Astra",
+  "reasoning_level": {
+   "name": "max",
+   "position": 5,
+   "of": 5,
+   "as_shown": "max at any effort"
+  },
+  "benchmark": "osworld-2",
+  "score": 72.6,
+  "score_unit": "%",
+  "kind": "main",
+  "test_conditions": {
+   "release": "v2026.08.08",
+   "subset": "offline (task count not stated)",
+   "scoring": "partial reward",
+   "runner": "OpenAI"
+  },
+  "reference_conditions_met": true,
+  "label": "Lab-reported",
+  "source_name": "OpenAI: GPT-6 Astra",
+  "source_url": "https://openai.com/index/gpt-6-astra/",
+  "source_date": "2026-09",
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "unverified",
+   "how": "Read from the page text on 2026-10-17 (Phase 0); openai.com could not be opened from here on 2026-10-29. Needs a browser check"
+  },
+  "cost_per_attempt_usd": null,
+  "tokens_per_attempt": null,
+  "notes": "Google's Argon card (checked today) repeats 72.6% and says it copied it from OpenAI. OpenAI's 6.1 Sol chart shows Astra at 73.5% (cost $9.44), unexplained."
+ },
+ {
+  "id": "osworld-2/gemini-4-argon/high/main/g_argon",
+  "model": "gemini-4-argon",
+  "model_name": "Gemini 4 Argon",
+  "reasoning_level": {
+   "name": "high",
+   "position": 3,
+   "of": 3,
+   "as_shown": "highest thinking setting (methodology default)"
+  },
+  "benchmark": "osworld-2",
+  "score": 69.2,
+  "score_unit": "%",
+  "kind": "main",
+  "test_conditions": {
+   "release": "v2026.08.08 (\"08.08 patch\")",
+   "subset": "offline",
+   "scoring": "partial score",
+   "step_limit": 500,
+   "runner": "Google",
+   "aggregation": "best of 3 runs"
+  },
+  "reference_conditions_met": true,
+  "label": "Lab-reported",
+  "source_name": "Google DeepMind: Gemini 4 Argon model card",
+  "source_url": "https://deepmind.google/models/model-cards/gemini-4-argon/",
+  "source_date": "2026-10-13",
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "checked",
+   "how": "Read on the original page on 2026-10-29"
+  },
+  "cost_per_attempt_usd": null,
+  "tokens_per_attempt": null,
+  "notes": "Best of 3 runs (Google methodology PDF, checked today). Others report a single run, so this flatters Argon a little. Show a warning."
+ },
+ {
+  "id": "osworld-2/claude-opus-5-5/max/unverified_candidate/a_haiku_card",
+  "model": "claude-opus-5-5",
+  "model_name": "Claude Opus 5.5",
+  "reasoning_level": {
+   "name": "max",
+   "position": 5,
+   "of": 5,
+   "as_shown": "max"
+  },
+  "benchmark": "osworld-2",
+  "score": 87.2,
+  "score_unit": "%",
+  "kind": "unverified_candidate",
+  "test_conditions": {
+   "release": "v2.1 (Anthropic calls it \"OSWorld 2.1\")",
+   "subset": "offline, 82 of 108 tasks",
+   "scoring": "partial credit",
+   "step_limit": 500,
+   "runner": "Anthropic"
+  },
+  "reference_conditions_met": false,
+  "label": "Lab-reported",
+  "source_name": "Anthropic: Claude Haiku 5.5 system card, sec. 8.9.3",
+  "source_url": "https://www-cdn.anthropic.com/e1080d6bf5ae2018ea3c2f414064be03232f5be5/Claude%20Haiku%205.5%20System%20Card.pdf",
+  "source_date": "2026-10-07",
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "unverified",
+   "how": "Quoted by secondary write-ups from the system card; the card's PDF section could not be read from here. Needs a browser check"
+  },
+  "cost_per_attempt_usd": null,
+  "tokens_per_attempt": null,
+  "secondary_source_urls": [
+   "https://llm-stats.com/blog/research/claude-haiku-5-5-launch"
+  ],
+  "notes": "Not on any Anthropic web page (checked the Haiku, Opus, Sonnet and Fable pages today). Only a secondary write-up attributes it to the Haiku 5.5 system card, sec. 8.9.3, p.127. Kept out until someone reads that page."
+ },
+ {
+  "id": "osworld-2/claude-opus-5-5/max/non_reference/a_opus",
+  "model": "claude-opus-5-5",
+  "model_name": "Claude Opus 5.5",
+  "reasoning_level": {
+   "name": "max",
+   "position": 5,
+   "of": 5,
+   "as_shown": "max"
+  },
+  "benchmark": "osworld-2",
+  "score": 81.8,
+  "score_unit": "%",
+  "kind": "non_reference",
+  "test_conditions": {
+   "release": "v2.1 (Anthropic calls it \"OSWorld 2.1\")",
+   "subset": "not stated; looks like the full 108-task set",
+   "scoring": "partial credit",
+   "step_limit": 500,
+   "runner": "Anthropic"
+  },
+  "reference_conditions_met": false,
+  "label": "Lab-reported",
+  "source_name": "Anthropic: Claude Opus 5.5",
+  "source_url": "https://www.anthropic.com/claude-opus-5-5",
+  "source_date": "2026-09-22",
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "checked",
+   "how": "Read on the original page on 2026-10-29"
+  },
+  "cost_per_attempt_usd": null,
+  "tokens_per_attempt": null,
+  "notes": "Different task set from the reference. Sonnet 5.5 shows the same pattern: 80.1% on its own page vs 83.9% offline on the Haiku page."
+ },
+ {
+  "id": "osworld-2/claude-sonnet-5-5/max/non_reference/a_sonnet",
+  "model": "claude-sonnet-5-5",
+  "model_name": "Claude Sonnet 5.5",
+  "reasoning_level": {
+   "name": "max",
+   "position": 5,
+   "of": 5,
+   "as_shown": "max"
+  },
+  "benchmark": "osworld-2",
+  "score": 80.1,
+  "score_unit": "%",
+  "kind": "non_reference",
+  "test_conditions": {
+   "release": "v2.1 (Anthropic calls it \"OSWorld 2.1\")",
+   "subset": "not stated; looks like the full 108-task set",
+   "scoring": "partial credit",
+   "step_limit": 500,
+   "runner": "Anthropic"
+  },
+  "reference_conditions_met": false,
+  "label": "Lab-reported",
+  "source_name": "Anthropic: Claude Sonnet 5.5",
+  "source_url": "https://www.anthropic.com/claude-sonnet-5-5",
+  "source_date": "2026-09-28",
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "checked",
+   "how": "Read on the original page on 2026-10-29"
+  },
+  "cost_per_attempt_usd": null,
+  "tokens_per_attempt": null
+ },
+ {
+  "id": "osworld-2/claude-fable-5-1/unstated/non_reference/a_opus",
+  "model": "claude-fable-5-1",
+  "model_name": "Claude Fable 5.1",
+  "reasoning_level": {
+   "name": null,
+   "position": null,
+   "of": 5,
+   "as_shown": "not stated"
+  },
+  "benchmark": "osworld-2",
+  "score": 80.7,
+  "score_unit": "%",
+  "kind": "non_reference",
+  "test_conditions": {
+   "release": "v2.1 (Anthropic calls it \"OSWorld 2.1\")",
+   "subset": "not stated; looks like the full 108-task set",
+   "scoring": "partial credit",
+   "step_limit": 500,
+   "runner": "Anthropic"
+  },
+  "reference_conditions_met": false,
+  "label": "Lab-reported",
+  "source_name": "Anthropic: Claude Opus 5.5",
+  "source_url": "https://www.anthropic.com/claude-opus-5-5",
+  "source_date": "2026-09-22",
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "checked",
+   "how": "Read on the original page on 2026-10-29"
+  },
+  "cost_per_attempt_usd": null,
+  "tokens_per_attempt": null,
+  "notes": "Fable has no offline-set score, so it is left out of this job."
+ },
+ {
+  "id": "osworld-2/gemini-3.8-flash/unstated/non_reference/g_flash",
+  "model": "gemini-3.8-flash",
+  "model_name": "Gemini 3.8 Flash",
+  "reasoning_level": {
+   "name": null,
+   "position": null,
+   "of": 3,
+   "as_shown": "not stated"
+  },
+  "benchmark": "osworld-2",
+  "score": 59.0,
+  "score_unit": "%",
+  "kind": "non_reference",
+  "test_conditions": {
+   "release": "v2026.06.24 (older)",
+   "scoring": "partial score",
+   "aggregation": "best of 3 runs"
+  },
+  "reference_conditions_met": false,
+  "label": "Lab-reported",
+  "source_name": "Google DeepMind: Gemini 3.8 Flash model card",
+  "source_url": "https://deepmind.google/models/model-cards/gemini-3-8-flash/",
+  "source_date": "2026-09",
+  "date_recorded": "2026-10-29",
+  "check": {
+   "status": "checked",
+   "how": "Read on the original page on 2026-10-29"
+  },
+  "cost_per_attempt_usd": null,
+  "tokens_per_attempt": null,
+  "notes": "Older release; not comparable."
+ }
+]

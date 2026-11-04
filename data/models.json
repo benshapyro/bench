@@ -1,0 +1,747 @@
+[
+ {
+  "id": "claude-fable-5-1",
+  "name": "Claude Fable 5.1",
+  "lab": "Anthropic",
+  "open_weight": false,
+  "license": "Proprietary (API only)",
+  "release_date": "2026-09-01",
+  "reasoning_levels": [
+   {
+    "name": "low",
+    "position": 1
+   },
+   {
+    "name": "medium",
+    "position": 2
+   },
+   {
+    "name": "high",
+    "position": 3
+   },
+   {
+    "name": "xhigh",
+    "position": 4
+   },
+   {
+    "name": "max",
+    "position": 5
+   }
+  ],
+  "thinking_billed_as_output": true,
+  "prices": {
+   "input": 10,
+   "output": 50,
+   "cache_read": 0.25,
+   "cache_write": 12.5,
+   "cache_lifetime": "5 minutes (default write price) or 1 hour (2x input write price); cache read resets the timer for the same duration",
+   "long_prompt_threshold_tokens": null,
+   "long_prompt_rule": null,
+   "long_prompt_input": null,
+   "long_prompt_output": null,
+   "long_prompt_cache_read": null
+  },
+  "price_basis": "maker",
+  "sources": [
+   "https://platform.claude.com/docs/en/about-claude/pricing",
+   "https://platform.claude.com/docs/en/models/fable-5-1/overview",
+   "https://platform.claude.com/docs/en/build-with-claude/effort",
+   "https://platform.claude.com/docs/en/build-with-claude/thinking-steering-and-cost"
+  ],
+  "source_quality": "official",
+  "date_checked": "2026-10-17",
+  "notes": "1h cache write $20. Cache read is 0.025x input (cut from $1 on Fable 5). Thinking is adaptive and always on (cannot be disabled); default effort high. No long-context surcharge: full 1M window at standard price. Batch 50% off. Sibling Claude Mythos 5.1 has the same prices but needs verified-org access."
+ },
+ {
+  "id": "claude-opus-5-5",
+  "name": "Claude Opus 5.5",
+  "lab": "Anthropic",
+  "open_weight": false,
+  "license": "Proprietary (API only)",
+  "release_date": "2026-09-22",
+  "reasoning_levels": [
+   {
+    "name": "low",
+    "position": 1
+   },
+   {
+    "name": "medium",
+    "position": 2
+   },
+   {
+    "name": "high",
+    "position": 3
+   },
+   {
+    "name": "xhigh",
+    "position": 4
+   },
+   {
+    "name": "max",
+    "position": 5
+   }
+  ],
+  "thinking_billed_as_output": true,
+  "prices": {
+   "input": 4,
+   "output": 20,
+   "cache_read": 0.2,
+   "cache_write": 5,
+   "cache_lifetime": "5 minutes (default write price) or 1 hour (2x input write price); cache read resets the timer for the same duration",
+   "long_prompt_threshold_tokens": null,
+   "long_prompt_rule": null,
+   "long_prompt_input": null,
+   "long_prompt_output": null,
+   "long_prompt_cache_read": null
+  },
+  "price_basis": "maker",
+  "sources": [
+   "https://platform.claude.com/docs/en/about-claude/pricing",
+   "https://www.anthropic.com/claude-opus-5-5",
+   "https://platform.claude.com/docs/en/build-with-claude/effort",
+   "https://platform.claude.com/docs/en/build-with-claude/thinking-steering-and-cost",
+   "https://www.usagepricing.com/blueprint/activity/claude-code-2026-10-05-opus-5-5-price-cut"
+  ],
+  "source_quality": "official",
+  "date_checked": "2026-10-17",
+  "notes": "CORRECTION to roster brief: $4/$20 is the launch price (Sep 22, 2026, 20% below Opus 5), not a price cut on ~Oct 5; Oct 5 is when a third-party tracker logged it. No promotion or end date stated. 1h cache write $8. Cache read is 0.05x input. Thinking adaptive and always on; default effort medium. Fast mode $8/$40. No long-context surcharge (flat to 1M). Batch 50% off."
+ },
+ {
+  "id": "claude-sonnet-5-5",
+  "name": "Claude Sonnet 5.5",
+  "lab": "Anthropic",
+  "open_weight": false,
+  "license": "Proprietary (API only)",
+  "release_date": "2026-09-28",
+  "reasoning_levels": [
+   {
+    "name": "low",
+    "position": 1
+   },
+   {
+    "name": "medium",
+    "position": 2
+   },
+   {
+    "name": "high",
+    "position": 3
+   },
+   {
+    "name": "xhigh",
+    "position": 4
+   },
+   {
+    "name": "max",
+    "position": 5
+   }
+  ],
+  "thinking_billed_as_output": true,
+  "prices": {
+   "input": 2,
+   "output": 10,
+   "cache_read": 0.1,
+   "cache_write": 2.5,
+   "cache_lifetime": "5 minutes (default write price) or 1 hour (2x input write price); cache read resets the timer for the same duration",
+   "long_prompt_threshold_tokens": null,
+   "long_prompt_rule": null,
+   "long_prompt_input": null,
+   "long_prompt_output": null,
+   "long_prompt_cache_read": null
+  },
+  "price_basis": "maker",
+  "sources": [
+   "https://platform.claude.com/docs/en/about-claude/pricing",
+   "https://www.anthropic.com/claude-sonnet-5-5",
+   "https://platform.claude.com/docs/en/build-with-claude/effort",
+   "https://platform.claude.com/docs/en/build-with-claude/thinking-steering-and-cost"
+  ],
+  "source_quality": "official",
+  "date_checked": "2026-10-17",
+  "notes": "1h cache write $4. Cache read 0.05x input (half of Sonnet 5's $0.20). Thinking adaptive, can be turned off; default effort high. No long-context surcharge (flat to 1M). Batch 50% off."
+ },
+ {
+  "id": "claude-haiku-5-5",
+  "name": "Claude Haiku 5.5",
+  "lab": "Anthropic",
+  "open_weight": false,
+  "license": "Proprietary (API only)",
+  "release_date": "2026-10-07",
+  "reasoning_levels": [
+   {
+    "name": "low",
+    "position": 1
+   },
+   {
+    "name": "medium",
+    "position": 2
+   },
+   {
+    "name": "high",
+    "position": 3
+   },
+   {
+    "name": "xhigh",
+    "position": 4
+   },
+   {
+    "name": "max",
+    "position": 5
+   }
+  ],
+  "thinking_billed_as_output": true,
+  "prices": {
+   "input": 0.1,
+   "output": 0.5,
+   "cache_read": 0.01,
+   "cache_write": 0.125,
+   "cache_lifetime": "5 minutes (default write price) or 1 hour (2x input write price); cache read resets the timer for the same duration",
+   "long_prompt_threshold_tokens": 100000,
+   "long_prompt_rule": "Prompts over 100,000 tokens pay the higher prices for the whole request (input, output, cache). Prompt length counts all input tokens, including cache reads and cache writes. Each request is priced on its own.",
+   "long_prompt_input": 0.5,
+   "long_prompt_output": 2.5,
+   "long_prompt_cache_read": 0.05
+  },
+  "price_basis": "maker",
+  "sources": [
+   "https://platform.claude.com/docs/en/about-claude/pricing",
+   "https://www.anthropic.com/claude-haiku-5-5",
+   "https://platform.claude.com/docs/en/build-with-claude/effort",
+   "https://platform.claude.com/docs/en/build-with-claude/thinking-steering-and-cost"
+  ],
+  "source_quality": "official",
+  "date_checked": "2026-10-17",
+  "notes": "Long-prompt cache write $0.625 (5m) / $1 (1h); short-prompt 1h write $0.20. Docs do not literally say 'whole request' but say a request over the threshold 'pays the higher prices' as a unit. Thinking adaptive, can be turned off; default effort medium. Batch 50% off."
+ },
+ {
+  "id": "gpt-6-astra",
+  "name": "GPT-6 Astra",
+  "lab": "OpenAI",
+  "open_weight": false,
+  "license": "Proprietary (API only)",
+  "release_date": "2026-09-03",
+  "reasoning_levels": [
+   {
+    "name": "low",
+    "position": 1
+   },
+   {
+    "name": "medium",
+    "position": 2
+   },
+   {
+    "name": "high",
+    "position": 3
+   },
+   {
+    "name": "xhigh",
+    "position": 4
+   },
+   {
+    "name": "max",
+    "position": 5
+   }
+  ],
+  "thinking_billed_as_output": true,
+  "prices": {
+   "input": 10,
+   "output": 50,
+   "cache_read": 1.0,
+   "cache_write": 12.5,
+   "cache_lifetime": "30 minutes minimum after last write or reuse (only supported TTL for GPT-5.6 and later); OpenAI may keep it longer",
+   "long_prompt_threshold_tokens": 272000,
+   "long_prompt_rule": "Prompts with more than 272K input tokens: the full request is billed at 2x input and cache rates and 1.5x output. Whether cached tokens count toward 272K is not stated (inferred yes: OpenAI counts cached tokens inside input_tokens).",
+   "long_prompt_input": 20,
+   "long_prompt_output": 75,
+   "long_prompt_cache_read": 2.0
+  },
+  "price_basis": "maker",
+  "sources": [
+   "https://developers.openai.com/api/docs/pricing",
+   "https://developers.openai.com/api/docs/models/gpt-6-astra",
+   "https://developers.openai.com/api/docs/guides/prompt-caching",
+   "https://developers.openai.com/api/docs/guides/reasoning",
+   "https://openai.com/index/gpt-6-astra",
+   "https://cloudinsight.cc/en/blog/gpt-6-astra-sol-luna-guide"
+  ],
+  "source_quality": "official",
+  "date_checked": "2026-10-17",
+  "notes": "Release date from an aggregator (cloudinsight.cc); OpenAI's announcement page shows no date. Cache read 10% of input; cache writes 1.25x input ($25 long-context). 'none' effort not supported. Batch/Flex 50% off; Fast mode 2x. Context 1.05M."
+ },
+ {
+  "id": "gpt-6.1-sol",
+  "name": "GPT-6.1 Sol",
+  "lab": "OpenAI",
+  "open_weight": false,
+  "license": "Proprietary (API only)",
+  "release_date": "2026-09-29",
+  "reasoning_levels": [
+   {
+    "name": "low",
+    "position": 1
+   },
+   {
+    "name": "medium",
+    "position": 2
+   },
+   {
+    "name": "high",
+    "position": 3
+   },
+   {
+    "name": "xhigh",
+    "position": 4
+   },
+   {
+    "name": "max",
+    "position": 5
+   }
+  ],
+  "thinking_billed_as_output": true,
+  "prices": {
+   "input": 2,
+   "output": 10,
+   "cache_read": 0.1,
+   "cache_write": 2.5,
+   "cache_lifetime": "30 minutes minimum after last write or reuse (only supported TTL for GPT-5.6 and later); OpenAI may keep it longer",
+   "long_prompt_threshold_tokens": 272000,
+   "long_prompt_rule": "Prompts with more than 272K input tokens: the full request is billed at 2x input and cache rates and 1.5x output. Whether cached tokens count toward 272K is not stated (inferred yes: OpenAI counts cached tokens inside input_tokens).",
+   "long_prompt_input": 4,
+   "long_prompt_output": 15,
+   "long_prompt_cache_read": 0.2
+  },
+  "price_basis": "maker",
+  "sources": [
+   "https://developers.openai.com/api/docs/pricing",
+   "https://developers.openai.com/api/docs/models/gpt-6.1-sol",
+   "https://developers.openai.com/api/docs/guides/prompt-caching",
+   "https://developers.openai.com/api/docs/guides/reasoning",
+   "https://openai.com/index/introducing-gpt-6-1-sol",
+   "https://openai.com/index/gpt-6-astra"
+  ],
+  "source_quality": "official",
+  "date_checked": "2026-10-17",
+  "notes": "Release date from the dated update note on OpenAI's Astra page. Cache read 5% of input; cache writes 1.25x ($5 long-context). 'none' and 'minimal' not supported; default medium. Fast 2x, Ultrafast 6x, Batch/Flex 50% off. Separate older model gpt-6-sol also exists."
+ },
+ {
+  "id": "gpt-6-luna",
+  "name": "GPT-6 Luna",
+  "lab": "OpenAI",
+  "open_weight": false,
+  "license": "Proprietary (API only)",
+  "release_date": "2026-09-22",
+  "reasoning_levels": [
+   {
+    "name": "none",
+    "position": 1
+   },
+   {
+    "name": "low",
+    "position": 2
+   },
+   {
+    "name": "medium",
+    "position": 3
+   },
+   {
+    "name": "high",
+    "position": 4
+   },
+   {
+    "name": "xhigh",
+    "position": 5
+   },
+   {
+    "name": "max",
+    "position": 6
+   }
+  ],
+  "thinking_billed_as_output": true,
+  "prices": {
+   "input": 0.1,
+   "output": 0.5,
+   "cache_read": 0.01,
+   "cache_write": 0.125,
+   "cache_lifetime": "30 minutes minimum after last write or reuse (only supported TTL for GPT-5.6 and later); OpenAI may keep it longer",
+   "long_prompt_threshold_tokens": 272000,
+   "long_prompt_rule": "Prompts with more than 272K input tokens: the full request is billed at 2x input and cache rates and 1.5x output. Whether cached tokens count toward 272K is not stated (inferred yes: OpenAI counts cached tokens inside input_tokens).",
+   "long_prompt_input": 0.2,
+   "long_prompt_output": 0.75,
+   "long_prompt_cache_read": 0.02
+  },
+  "price_basis": "maker",
+  "sources": [
+   "https://developers.openai.com/api/docs/pricing",
+   "https://developers.openai.com/api/docs/models/gpt-6-luna",
+   "https://developers.openai.com/api/docs/guides/prompt-caching",
+   "https://developers.openai.com/api/docs/guides/reasoning",
+   "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+   "https://openai.com/index/gpt-6-astra"
+  ],
+  "source_quality": "official",
+  "date_checked": "2026-10-17",
+  "notes": "Release date from the dated update note on OpenAI's Astra page. Cache read 10% of input; cache writes 1.25x ($0.25 long-context). Default effort medium. Batch/Flex 50% off."
+ },
+ {
+  "id": "gemini-4-argon",
+  "name": "Gemini 4 Argon",
+  "lab": "Google",
+  "open_weight": false,
+  "license": "Proprietary (API only)",
+  "release_date": "2026-10",
+  "reasoning_levels": [
+   {
+    "name": "low",
+    "position": 1
+   },
+   {
+    "name": "medium",
+    "position": 2
+   },
+   {
+    "name": "high",
+    "position": 3
+   }
+  ],
+  "thinking_billed_as_output": true,
+  "prices": {
+   "input": 2,
+   "output": 10,
+   "cache_read": 0.1,
+   "cache_write": null,
+   "cache_lifetime": "Implicit caching only (explicit caching not supported); lifetime not stated",
+   "long_prompt_threshold_tokens": null,
+   "long_prompt_rule": null,
+   "long_prompt_input": null,
+   "long_prompt_output": null,
+   "long_prompt_cache_read": null
+  },
+  "price_basis": "maker",
+  "sources": [
+   "https://ai.google.dev/gemini-api/docs/pricing",
+   "https://ai.google.dev/gemini-api/docs/models/gemini-4-argon",
+   "https://www.eesel.ai/blog/gemini-4-argon-pricing"
+  ],
+  "source_quality": "official",
+  "date_checked": "2026-10-17",
+  "notes": "NOT IN PROPOSED ROSTER; added for review. PROMOTIONAL: $2/$10, cache $0.10 through Nov 30, 2026; $4/$20, cache $0.20 from Dec 1, 2026. Announced Sep 30, 2026 (aggregator); API access rolled out in stages, model page shows Stable with 'October 2026' update, exact GA date unknown. No long-context tier listed. Context 1,048,576 tokens (input+output)."
+ },
+ {
+  "id": "gemini-3.8-flash",
+  "name": "Gemini 3.8 Flash",
+  "lab": "Google",
+  "open_weight": false,
+  "license": "Proprietary (API only)",
+  "release_date": "2026-09",
+  "reasoning_levels": [
+   {
+    "name": "low",
+    "position": 1
+   },
+   {
+    "name": "medium",
+    "position": 2
+   },
+   {
+    "name": "high",
+    "position": 3
+   }
+  ],
+  "thinking_billed_as_output": true,
+  "prices": {
+   "input": 0.75,
+   "output": 3.75,
+   "cache_read": 0.075,
+   "cache_write": null,
+   "cache_lifetime": "Implicit caching is on by default (lifetime not stated). Explicit caches: user-set TTL (ttl field), billed per hour of storage; default TTL not stated in current docs.",
+   "long_prompt_threshold_tokens": null,
+   "long_prompt_rule": null,
+   "long_prompt_input": null,
+   "long_prompt_output": null,
+   "long_prompt_cache_read": null
+  },
+  "price_basis": "maker",
+  "sources": [
+   "https://ai.google.dev/gemini-api/docs/pricing",
+   "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-flash",
+   "https://ai.google.dev/gemini-api/docs/thinking",
+   "https://ai.google.dev/gemini-api/docs/caching"
+  ],
+  "source_quality": "official",
+  "date_checked": "2026-10-17",
+  "notes": "PROMOTIONAL: these prices run through Dec 31, 2026. From Jan 1, 2027: $1.50 in / $7.50 out / $0.15 cache / storage $1.00 per 1M per hour. Storage now $0.50 per 1M tokens per hour. No long-context tier listed. 'minimal' thinking not supported; default medium. Release given as month only."
+ },
+ {
+  "id": "gemini-3.5-flash-lite",
+  "name": "Gemini 3.5 Flash-Lite",
+  "lab": "Google",
+  "open_weight": false,
+  "license": "Proprietary (API only)",
+  "release_date": "2026-07",
+  "reasoning_levels": [
+   {
+    "name": "minimal",
+    "position": 1
+   },
+   {
+    "name": "low",
+    "position": 2
+   },
+   {
+    "name": "medium",
+    "position": 3
+   },
+   {
+    "name": "high",
+    "position": 4
+   }
+  ],
+  "thinking_billed_as_output": true,
+  "prices": {
+   "input": 0.3,
+   "output": 2.5,
+   "cache_read": 0.03,
+   "cache_write": null,
+   "cache_lifetime": "Implicit caching is on by default (lifetime not stated). Explicit caches: user-set TTL (ttl field), billed per hour of storage; default TTL not stated in current docs.",
+   "long_prompt_threshold_tokens": null,
+   "long_prompt_rule": null,
+   "long_prompt_input": null,
+   "long_prompt_output": null,
+   "long_prompt_cache_read": null
+  },
+  "price_basis": "maker",
+  "sources": [
+   "https://ai.google.dev/gemini-api/docs/pricing",
+   "https://ai.google.dev/gemini-api/docs/models/gemini-3.5-flash-lite",
+   "https://ai.google.dev/gemini-api/docs/thinking",
+   "https://ai.google.dev/gemini-api/docs/caching"
+  ],
+  "source_quality": "official",
+  "date_checked": "2026-10-17",
+  "notes": "Storage $1.00 per 1M tokens per hour. No long-context tier listed. Default thinking minimal. Release given as month only. Note: output $2.50 is 5x Gemini 3.1 Flash-Lite's $1.50."
+ },
+ {
+  "id": "grok-4.7",
+  "name": "Grok 4.7",
+  "lab": "xAI",
+  "open_weight": false,
+  "license": "Proprietary (API only)",
+  "release_date": "2026-09-21",
+  "reasoning_levels": [
+   {
+    "name": "low",
+    "position": 1
+   },
+   {
+    "name": "medium",
+    "position": 2
+   },
+   {
+    "name": "high",
+    "position": 3
+   },
+   {
+    "name": "xhigh",
+    "position": 4
+   }
+  ],
+  "thinking_billed_as_output": null,
+  "prices": {
+   "input": 2,
+   "output": 6,
+   "cache_read": 0.5,
+   "cache_write": null,
+   "cache_lifetime": "No fixed lifetime; entries can be evicted at any time (server load/restarts). Setting x-grok-conv-id improves retention.",
+   "long_prompt_threshold_tokens": 200000,
+   "long_prompt_rule": "Once the prompt reaches 200K tokens, long-context rates apply to all tokens in the request. Whether cached tokens count toward 200K is not stated.",
+   "long_prompt_input": 4,
+   "long_prompt_output": 12,
+   "long_prompt_cache_read": 1.0
+  },
+  "price_basis": "maker",
+  "sources": [
+   "https://docs.x.ai/developers/pricing",
+   "https://docs.x.ai/developers/models/grok-4.7",
+   "https://docs.x.ai/docs/guides/reasoning",
+   "https://docs.x.ai/developers/advanced-api-usage/prompt-caching/best-practices",
+   "https://x.ai/news/grok-4-7"
+  ],
+  "source_quality": "official",
+  "date_checked": "2026-10-17",
+  "notes": "No cache-write price listed. Reasoning tokens 'billed as part of your total consumption' (output rate not stated explicitly). Default effort high. Pricing page says threshold applies when the prompt 'reaches' 200K; model page says 'exceed'. Context 500K. Fast variant 2x price; priority 2x; US regional 1.1x."
+ },
+ {
+  "id": "deepseek-v4.1-flash",
+  "name": "DeepSeek V4.1 Flash",
+  "lab": "DeepSeek",
+  "open_weight": true,
+  "license": "MIT",
+  "release_date": "2026-09-10",
+  "reasoning_levels": [
+   {
+    "name": "low",
+    "position": 1
+   },
+   {
+    "name": "high",
+    "position": 2
+   },
+   {
+    "name": "max",
+    "position": 3
+   }
+  ],
+  "thinking_billed_as_output": null,
+  "prices": {
+   "input": 0.3,
+   "output": 1.2,
+   "cache_read": 0.006,
+   "cache_write": null,
+   "cache_lifetime": "Automatic disk cache; cleared when unused, 'usually within a few hours to a few days'",
+   "long_prompt_threshold_tokens": null,
+   "long_prompt_rule": null,
+   "long_prompt_input": null,
+   "long_prompt_output": null,
+   "long_prompt_cache_read": null
+  },
+  "price_basis": "maker",
+  "sources": [
+   "https://api-docs.deepseek.com/quick_start/pricing",
+   "https://api-docs.deepseek.com/guides/thinking_mode",
+   "https://api-docs.deepseek.com/guides/kv_cache",
+   "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
+   "https://openrouter.ai/deepseek",
+   "https://openrouter.ai/rankings"
+  ],
+  "source_quality": "official",
+  "date_checked": "2026-10-17",
+  "notes": "PEAK prices shown (DeepSeek's base rate). OFF-PEAK is half: $0.15 in / $0.60 out / $0.003 cache hit. Peak = 01:00-04:00 and 06:00-10:00 UTC Mon-Fri (6-9pm and 11pm-3am US Pacific in October); all other hours, weekends and Chinese holidays are off-peak, so US business hours are off-peak. Current API snapshot is V4.1-Flash-1017 (updated today, Oct 17); release date is the first V4.1 Flash listing on OpenRouter (aggregator). Thinking on by default, can be disabled; API accepts low/high/max (other names map onto these). No separate cache-write price (misses billed at input rate). 1M context. Most-used model on OpenRouter (120T tokens, trailing 30 days).",
+  "api_snapshot": "V4.1-Flash-1017 (served by DeepSeek API since 2026-10-17)"
+ },
+ {
+  "id": "glm-5.3-flash",
+  "name": "GLM-5.3-Flash",
+  "lab": "Z.ai (Zhipu)",
+  "open_weight": true,
+  "license": "MIT",
+  "release_date": "2026-08-26",
+  "reasoning_levels": [
+   {
+    "name": "low",
+    "position": 1
+   },
+   {
+    "name": "high",
+    "position": 2
+   },
+   {
+    "name": "max",
+    "position": 3
+   }
+  ],
+  "thinking_billed_as_output": null,
+  "prices": {
+   "input": 0.15,
+   "output": 0.5,
+   "cache_read": 0.03,
+   "cache_write": null,
+   "cache_lifetime": "Implicit automatic caching; 'reasonable time limits', exact lifetime not stated. Cache storage 'limited-time free'.",
+   "long_prompt_threshold_tokens": null,
+   "long_prompt_rule": null,
+   "long_prompt_input": null,
+   "long_prompt_output": null,
+   "long_prompt_cache_read": null
+  },
+  "price_basis": "maker",
+  "sources": [
+   "https://docs.z.ai/guides/overview/pricing",
+   "https://docs.z.ai/guides/llm/glm-5.3-flash",
+   "https://docs.z.ai/guides/capabilities/cache",
+   "https://huggingface.co/zai-org/GLM-5.3-Flash",
+   "https://openrouter.ai/z-ai",
+   "https://openrouter.ai/rankings",
+   "https://www.together.ai/pricing"
+  ],
+  "source_quality": "official",
+  "date_checked": "2026-10-17",
+  "notes": "Release date from OpenRouter (aggregator). 320B total / 18B active. Thinking always on in Z.ai API (cannot disable); reasoning_effort levels from the Hugging Face model card (default max). Together AI charges the same $0.15/$0.03/$0.50. PROMOTIONAL: cache storage free for a limited time, no end date. No long-context tier listed. 1M context, 128K max output. Sibling GLM-5.3 (753B, $1.40/$0.26/$4.40) uses a custom MIT-style license with a security-review clause for Model-as-a-Service companies over $10B revenue."
+ },
+ {
+  "id": "mimo-v2.6-flash",
+  "name": "MiMo-V2.6-Flash",
+  "lab": "Xiaomi",
+  "open_weight": true,
+  "license": "MIT",
+  "release_date": "2026-09-21",
+  "reasoning_levels": [],
+  "thinking_billed_as_output": null,
+  "prices": {
+   "input": 0.14,
+   "output": 0.28,
+   "cache_read": 0.0028,
+   "cache_write": null,
+   "cache_lifetime": null,
+   "long_prompt_threshold_tokens": null,
+   "long_prompt_rule": null,
+   "long_prompt_input": null,
+   "long_prompt_output": null,
+   "long_prompt_cache_read": null
+  },
+  "price_basis": "maker",
+  "sources": [
+   "https://openrouter.ai/xiaomi/mimo-v2.6-flash",
+   "https://openrouter.ai/xiaomi",
+   "https://llmgateway.io/models/mimo-v2.6-flash",
+   "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Flash-RL",
+   "https://openrouter.ai/rankings"
+  ],
+  "source_quality": "aggregator",
+  "date_checked": "2026-10-17",
+  "notes": "AGGREGATOR ONLY: Xiaomi's pricing page (mimo.mi.com/docs/pricing) renders with JavaScript and could not be read; prices are Xiaomi's own endpoint as listed on OpenRouter and LLM Gateway (both agree). Hosts: DeepInfra $0.14/$0.28 (5% promo), NovitaAI $0.14/$0.28, GMICloud $0.14/$0.28. Release Sep 21 (OpenRouter) vs Sep 22 (LLM Gateway). 309B total / 15B active; weights MIT on Hugging Face (MiMo-V2.6-Flash-RL). Reasoning supported but levels not documented anywhere I could read. ~1M context. Sibling MiMo-V2.6-Pro is not open-weight per OpenRouter."
+ },
+ {
+  "id": "qwen3.8-27b",
+  "name": "Qwen3.8-27B",
+  "lab": "Alibaba (Qwen)",
+  "open_weight": true,
+  "license": "Apache-2.0",
+  "release_date": "2026-08-14",
+  "reasoning_levels": [
+   {
+    "name": "low",
+    "position": 1
+   },
+   {
+    "name": "medium",
+    "position": 2
+   },
+   {
+    "name": "xhigh",
+    "position": 3
+   }
+  ],
+  "thinking_billed_as_output": null,
+  "prices": {
+   "input": 0.425,
+   "output": 2.55,
+   "cache_read": 0.0425,
+   "cache_write": 0.53125,
+   "cache_lifetime": "5 minutes (Alibaba explicit cache)",
+   "long_prompt_threshold_tokens": null,
+   "long_prompt_rule": null,
+   "long_prompt_input": null,
+   "long_prompt_output": null,
+   "long_prompt_cache_read": null
+  },
+  "price_basis": "maker",
+  "sources": [
+   "https://openrouter.ai/qwen/qwen3.8-27b",
+   "https://huggingface.co/Qwen/Qwen3.8-27B",
+   "https://huggingface.co/Qwen",
+   "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+   "https://openrouter.ai/rankings"
+  ],
+  "source_quality": "aggregator",
+  "date_checked": "2026-10-17",
+  "notes": "AGGREGATOR ONLY: Alibaba Cloud International's endpoint as listed on OpenRouter; I could not find the qwen3.8-27b row on Alibaba's own pricing page. Cache figures are Alibaba's explicit 5-minute cache; implicit cache read is $0.085 with no write fee. Median of 4 major hosts (Alibaba, DeepInfra list $0.20/$2.50/$0.05, Cloudflare $0.45/$3.20/$0.05, CoreWeave $0.40/$3.00/$0.15) = $0.41 in / $2.78 out / $0.068 cache read, close to the maker price. Host prices range widely ($0.02-$0.99 in). Not on Together or Fireworks serverless. Reasoning levels per model card: xhigh default, medium and low alternatives (no 'high' listed - odd, verify). Thinking can be disabled. Release date from OpenRouter."
+ }
+]

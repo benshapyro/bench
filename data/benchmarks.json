@@ -1,0 +1,52 @@
+[
+ {
+  "id": "vals-index",
+  "name": "Vals Index",
+  "job": "general-business-work",
+  "main": true,
+  "guessing_score": 0,
+  "description": "Independent score for professional work in finance, coding, legal and tax, weighted by share of US GDP.",
+  "reference_conditions": "Vals Index v2.2 as run by Vals AI. Never mixed with v2.1.",
+  "source_url": "https://www.vals.ai/benchmarks/vals_index"
+ },
+ {
+  "id": "tau3-banking",
+  "name": "τ³-Banking",
+  "job": "customer-service",
+  "main": true,
+  "guessing_score": 0,
+  "description": "An agent answers banking customers by finding the right policy in about 700 documents and taking the right actions; graded on the end result.",
+  "reference_conditions": "pass^1 on the Sierra partner board (Mercor). Spec asks for v1.0.1 or later; the board does not state its version.",
+  "source_url": "https://www.mercor.com/apex/partner-benchmarks/tau-3-banking-leaderboard/"
+ },
+ {
+  "id": "osworld-2",
+  "name": "OSWorld 2.0",
+  "job": "using-software",
+  "main": true,
+  "guessing_score": 0,
+  "description": "An agent operates a real computer to finish long, multi-step tasks across ordinary apps.",
+  "reference_conditions": "Offline task set, partial-credit score, release v2026.08.08 or v2.1. Full-pass rate shown beside it where published.",
+  "source_url": "https://www.anthropic.com/claude-haiku-5-5"
+ },
+ {
+  "id": "terminal-bench-4",
+  "name": "Terminal-Bench 4.0",
+  "job": "building-software",
+  "main": true,
+  "guessing_score": 0,
+  "description": "An agent completes 66 hard real-world tasks in a computer terminal, each checked by automated tests.",
+  "reference_conditions": "Vals AI's run: mini-SWE-agent for every model, average of 3 runs.",
+  "source_url": "https://www.vals.ai/benchmarks/terminal-bench-4"
+ },
+ {
+  "id": "gdp-pdf",
+  "name": "GDP.pdf",
+  "job": "reading-documents",
+  "main": true,
+  "guessing_score": 0,
+  "description": "Questions written by working professionals about 100 real PDFs (leases, datasheets, floor plans); a task passes only if every required fact is right.",
+  "reference_conditions": "Surge AI's board, strict pass rate.",
+  "source_url": "https://surgehq.ai/benchmarks/gdp-pdf"
+ }
+]

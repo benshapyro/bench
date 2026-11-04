@@ -1,0 +1,35 @@
+{
+  "_about": "Proposed preset typical task for each job (spec 4 and 6.2), Oct 29 2026. Pages use the spec's rule: 1 page = 500 words = about 650 tokens. repeated_share is the share of pages_in that is the same text as the previous request inside the cache window (spec 5.2). 'measured_by' names the usage-run tasks closest to the preset; 'unit' says what one task means to the buyer.",
+  "jobs": {
+    "writing_and_analysis": {
+      "unit": "one report, memo or brief",
+      "pages_in": 4, "pages_out": 1.5, "repeated_share": 0.10,
+      "measured_by": ["W1", "W2"],
+      "why": "W1 and W2 each read about 4 pages (a quarter's sales material; an RFP plus two proposals) and write 1 to 2 pages. Only the house-style instructions repeat."
+    },
+    "customer_service": {
+      "unit": "one customer conversation (about 4 replies)",
+      "pages_in": 12, "pages_out": 2, "repeated_share": 0.85,
+      "measured_by": ["C1"],
+      "why": "Each reply re-reads the policy and the chat so far (about 3 pages) and writes about half a page. Buyers count conversations, not replies, so a task is 4 replies. Policy and earlier turns repeat within minutes, so most input is cacheable."
+    },
+    "using_software": {
+      "unit": "one job done in an app, e.g. one invoice entered (about 12 steps)",
+      "pages_in": 32, "pages_out": 3.5, "repeated_share": 0.85,
+      "measured_by": ["U1"],
+      "why": "U1 is one step: about 2.7 pages in (instructions, source email, history, current screen), a third of a page out. A full task is about 12 such steps, each re-sending the instructions and history."
+    },
+    "building_software": {
+      "unit": "one bug fix or small feature by a coding assistant",
+      "pages_in": 20, "pages_out": 3, "repeated_share": 0.60,
+      "measured_by": ["S1", "S2"],
+      "why": "S1 and S2 are single requests of 3.4 and 5 pages. Coding assistants usually take several requests per change, re-reading the same files, so the preset is about 4 times S2."
+    },
+    "reading_documents": {
+      "unit": "one document or document set checked",
+      "pages_in": 3, "pages_out": 0.75, "repeated_share": 0.10,
+      "measured_by": ["R1", "R2"],
+      "why": "R1 (annual-report extraction, 4 pages) and R2 (invoice three-way match, 1.4 pages) bracket it. Only the instructions repeat."
+    }
+  }
+}
